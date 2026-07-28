@@ -1,0 +1,26 @@
+{
+  "extends": "@agentrader/tsconfig/esm.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../dts/packages/event-bus",
+    "paths": {
+      "@agentrader/db": ["../db/src/index.ts"],
+      "@agentrader/db/*": ["../db/src/*"],
+      "@agentrader/tsconfig/*": ["../tsconfig/*"],
+      "@agentrader/types": ["../types/src/index.ts"],
+      "@agentrader/types/*": ["../types/src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "references": [
+    {
+      "path": "../db"
+    },
+    {
+      "path": "../tsconfig"
+    },
+    {
+      "path": "../types"
+    }
+  ]
+}

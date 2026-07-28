@@ -1,0 +1,61 @@
+{
+  "extends": "@agentrader/tsconfig/esm.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../dts/packages/bot",
+    "paths": {
+      "@agentrader/bot-templates": ["../bot-templates/src/index.ts"],
+      "@agentrader/bot-templates/*": ["../bot-templates/src/*"],
+      "@agentrader/db": ["../db/src/index.ts"],
+      "@agentrader/db/*": ["../db/src/*"],
+      "@agentrader/event-bus": ["../event-bus/src/index.ts"],
+      "@agentrader/event-bus/*": ["../event-bus/src/*"],
+      "@agentrader/exchanges": ["../exchanges/src/index.ts"],
+      "@agentrader/exchanges/*": ["../exchanges/src/*"],
+      "@agentrader/logger": ["../logger/src/index.ts"],
+      "@agentrader/logger/*": ["../logger/src/*"],
+      "@agentrader/tools": ["../tools/src/index.ts"],
+      "@agentrader/tools/*": ["../tools/src/*"],
+      "@agentrader/tsconfig/*": ["../tsconfig/*"],
+      "@agentrader/types": ["../types/src/index.ts"],
+      "@agentrader/types/*": ["../types/src/*"],
+      "@agentrader/bot-processor": ["../bot-processor/src/index.ts"],
+      "@agentrader/bot-processor/*": ["../bot-processor/src/*"],
+      "@agentrader/trpc": ["../trpc/src/index.ts"],
+      "@agentrader/trpc/*": ["../trpc/src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "references": [
+    {
+      "path": "../bot-processor"
+    },
+    {
+      "path": "../bot-templates"
+    },
+    {
+      "path": "../db"
+    },
+    {
+      "path": "../event-bus"
+    },
+    {
+      "path": "../exchanges"
+    },
+    {
+      "path": "../logger"
+    },
+    {
+      "path": "../tools"
+    },
+    {
+      "path": "../trpc"
+    },
+    {
+      "path": "../tsconfig"
+    },
+    {
+      "path": "../types"
+    }
+  ]
+}

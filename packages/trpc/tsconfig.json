@@ -1,0 +1,61 @@
+{
+  "extends": "@agentrader/tsconfig/esm.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../dts/packages/trpc",
+    "paths": {
+      "@agentrader/bot-processor": ["../bot-processor/src/index.ts"],
+      "@agentrader/bot-processor/*": ["../bot-processor/src/*"],
+      "@agentrader/bot-templates": ["../bot-templates/src/index.ts"],
+      "@agentrader/bot-templates/*": ["../bot-templates/src/*"],
+      "@agentrader/db": ["../db/src/index.ts"],
+      "@agentrader/db/*": ["../db/src/*"],
+      "@agentrader/event-bus": ["../event-bus/src/index.ts"],
+      "@agentrader/event-bus/*": ["../event-bus/src/*"],
+      "@agentrader/exchanges": ["../exchanges/src/index.ts"],
+      "@agentrader/exchanges/*": ["../exchanges/src/*"],
+      "@agentrader/prisma": ["../prisma/src/index.ts"],
+      "@agentrader/prisma/*": ["../prisma/src/*"],
+      "@agentrader/tools": ["../tools/src/index.ts"],
+      "@agentrader/tools/*": ["../tools/src/*"],
+      "@agentrader/tsconfig/*": ["../tsconfig/*"],
+      "@agentrader/types": ["../types/src/index.ts"],
+      "@agentrader/types/*": ["../types/src/*"],
+      "@agentrader/backtesting": ["../backtesting/src/index.ts"],
+      "@agentrader/backtesting/*": ["../backtesting/src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "references": [
+    {
+      "path": "../backtesting"
+    },
+    {
+      "path": "../bot-processor"
+    },
+    {
+      "path": "../bot-templates"
+    },
+    {
+      "path": "../db"
+    },
+    {
+      "path": "../event-bus"
+    },
+    {
+      "path": "../exchanges"
+    },
+    {
+      "path": "../prisma"
+    },
+    {
+      "path": "../tools"
+    },
+    {
+      "path": "../tsconfig"
+    },
+    {
+      "path": "../types"
+    }
+  ]
+}

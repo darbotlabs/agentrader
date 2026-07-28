@@ -1,0 +1,39 @@
+{
+  "name": "@agentrader/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AgentTrader pro UI — native implementation from production dist contracts (index-DTKnr6h1.js).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "verify": "node scripts/verify-pro-contracts.mjs",
+    "check": "npm run verify && npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.11",
+    "@mui/joy": "^5.0.0-beta.51",
+    "@mui/material": "^6.4.11",
+    "@reduxjs/toolkit": "^2.8.2",
+    "@tanstack/react-query": "^5.80.7",
+    "@tanstack/react-router": "^1.121.2",
+    "@trpc/client": "^11.4.1",
+    "@trpc/react-query": "^11.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "superjson": "^2.2.2",
+    "zod": "3.25.65"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.5.2",
+    "typescript": "5.8.3",
+    "vite": "^6.3.5"
+  }
+}

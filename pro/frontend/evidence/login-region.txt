@@ -1,0 +1,6 @@
+25905:  yB = "ADMIN_PASSWORD",
+36797:        P.jsx(jm, { children: P.jsxs(tn, { children: [P.jsx(Pn, { children: "Backend URL" }), P.jsx(Z8, {})] }) }),
+43699:  rwe = () => P.jsxs(tn, { children: [P.jsx(Pn, { children: "Backend URL" }), P.jsx(Z8, {})] });
+43732:      P.jsx(Ct, { component: "h1", level: "h4", children: "Welcome Trader!" }),
+43733:      P.jsx(Ct, { level: "body-sm", children: "Sign in to continue." }),
+43736:          P.jsx(Pn, { children: "Backend URL" }),

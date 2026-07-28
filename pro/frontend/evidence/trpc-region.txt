@@ -1,0 +1,43 @@
+43653:    { data: e } = Rs(c.exchangeAccount.list.queryOptions()),
+44770:      { mutateAsync: i, isPending: n } = Xo(t.exchangeAccount.check.mutationOptions()),
+44773:        await s.invalidateQueries(t.exchangeAccount.list.queryOptions()),
+46722:      } = Xo(i.exchangeAccount.create.mutationOptions());
+46863:      } = Xo(n.exchangeAccount.update.mutationOptions());
+46973:    { data: d, refetch: u } = Rs(e.exchangeAccount.list.queryOptions()),
+46974:    { mutateAsync: l } = Xo(e.exchangeAccount.delete.mutationOptions()),
+46977:        await t.invalidateQueries(e.exchangeAccount.list.queryOptions()),
+47023:        r.invalidateQueries(n.gridBot.getOne.queryOptions(t.id)),
+47024:          r.invalidateQueries(n.bot.getOne.queryOptions(t.id)),
+47025:          r.invalidateQueries(n.bot.list.queryOptions()),
+47030:        n.bot.start.mutationOptions({
+47037:        n.bot.stop.mutationOptions({
+47265:      { data: e } = Rs(c.bot.list.queryOptions());
+47356:    { data: e } = Rs(c.exchangeAccount.list.queryOptions());
+47750:        i.invalidateQueries(s.gridBot.getOne.queryOptions(e.id)),
+47751:          i.invalidateQueries(s.dcaBot.getOne.queryOptions(e.id)),
+47752:          i.invalidateQueries(s.bot.getOne.queryOptions(e.id)),
+47762:        s.bot.start.mutationOptions({
+47769:        s.bot.stop.mutationOptions({
+47829:        a.invalidateQueries(r.bot.list.queryOptions()), a.invalidateQueries(r.gridBot.list.queryOptions());
+47902:        a.invalidateQueries(r.gridBot.getOne.queryOptions(t.id)),
+47903:          a.invalidateQueries(r.bot.getOne.queryOptions(t.id)),
+47908:        r.bot.start.mutationOptions({
+47915:        r.bot.stop.mutationOptions({
+48029:      { data: t } = Rs(e.gridBot.getOne.queryOptions(c));
+235678:      { data: a } = Rs(i.exchangeAccount.list.queryOptions(void 0, { initialData: t }));
+236571:      { data: t } = Rs(e.gridBot.getOne.queryOptions(c)),
+236572:      { data: s } = Rs(e.exchangeAccount.getOne.queryOptions(t.exchangeAccountId)),
+236807:      { data: t } = Rs(e.bot.getOne.queryOptions(c)),
+237516:      { data: h } = Rs(i.exchangeAccount.list.queryOptions()),
+237560:      { data: f } = Rs(n.exchangeAccount.getOne.queryOptions(e.exchangeAccountId)),
+237607:      s.dcaBot.create.mutationOptions({
+237704:      { data: t } = Rs(e.dcaBot.getOne.queryOptions(c)),
+237705:      { data: s } = Rs(e.exchangeAccount.getOne.queryOptions(t.exchangeAccountId)),
+237719:      } = Rs(e.dcaBot.getTrades.queryOptions({ botId: c })),
+243533:    { data: e } = Rs(c.exchangeAccount.list.queryOptions()),
+243557:    { data: a } = Rs(e.exchangeAccount.getOne.queryOptions(r)),
+243669:      { data: t } = Rs(e.dcaBot.getOne.queryOptions(c));
+249379:      { data: t } = Rs(e.bot.getOne.queryOptions(c));
+249422:      { data: t } = Rs(e.bot.getOne.queryOptions(c)),
+249423:      { data: s } = Rs(e.exchangeAccount.getOne.queryOptions(t.exchangeAccountId)),
+249629:    { data: i } = Rs(t.bot.getOne.queryOptions(e));

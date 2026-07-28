@@ -1,0 +1,29 @@
+{
+  "extends": "@agentrader/tsconfig/esm.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../dts/packages/bot-templates",
+    "paths": {
+      "@agentrader/bot-processor": ["../bot-processor/src/index.ts"],
+      "@agentrader/bot-processor/*": ["../bot-processor/src/*"],
+      "@agentrader/exchanges": ["../exchanges/src/index.ts"],
+      "@agentrader/exchanges/*": ["../exchanges/src/*"],
+      "@agentrader/logger": ["../logger/src/index.ts"],
+      "@agentrader/logger/*": ["../logger/src/*"],
+      "@agentrader/tools": ["../tools/src/index.ts"],
+      "@agentrader/tools/*": ["../tools/src/*"],
+      "@agentrader/tsconfig/*": ["../tsconfig/*"],
+      "@agentrader/types": ["../types/src/index.ts"],
+      "@agentrader/types/*": ["../types/src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "references": [
+    { "path": "../bot-processor" },
+    { "path": "../exchanges" },
+    { "path": "../logger" },
+    { "path": "../tools" },
+    { "path": "../tsconfig" },
+    { "path": "../types" }
+  ]
+}

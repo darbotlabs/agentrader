@@ -1,0 +1,217 @@
+[
+  {
+    "from": "gVe",
+    "to": "DashboardBotEditIdPage",
+    "confidence": 0.9
+  },
+  {
+    "from": "Yz",
+    "to": "DashboardBotEditIdRoute",
+    "confidence": 0.9
+  },
+  {
+    "from": "ea",
+    "to": "createFileRoute",
+    "confidence": 0.9
+  },
+  {
+    "from": "AVe",
+    "to": "LayoutDashboardBotEditIdRoute",
+    "confidence": 0.98
+  },
+  {
+    "from": "Ys",
+    "to": "useTRPC",
+    "confidence": 0.95
+  },
+  {
+    "from": "Rs",
+    "to": "useQuery",
+    "confidence": 0.95
+  },
+  {
+    "from": "Xo",
+    "to": "useMutation",
+    "confidence": 0.95
+  },
+  {
+    "from": "qT",
+    "to": "ErrorBoundary",
+    "confidence": 0.95
+  },
+  {
+    "from": "Vz",
+    "to": "StrategyParamsProvider",
+    "confidence": 0.95
+  },
+  {
+    "from": "mVe",
+    "to": "BotEditForm",
+    "confidence": 0.9
+  },
+  {
+    "from": "cS",
+    "to": "useStrategyParams",
+    "confidence": 0.98
+  },
+  {
+    "from": "Ud",
+    "to": "useSnackbar",
+    "confidence": 0.95
+  },
+  {
+    "from": "ju",
+    "to": "useNavigate",
+    "confidence": 0.95
+  },
+  {
+    "from": "Js",
+    "to": "pathTo",
+    "confidence": 0.95
+  },
+  {
+    "from": "P",
+    "to": "jsxRuntime",
+    "confidence": 0.9
+  },
+  {
+    "from": "V",
+    "to": "React",
+    "confidence": 0.9
+  },
+  {
+    "from": "Ct",
+    "to": "Typography",
+    "confidence": 0.85
+  },
+  {
+    "from": "zt",
+    "to": "Grid",
+    "confidence": 0.85
+  },
+  {
+    "from": "mn",
+    "to": "Skeleton",
+    "confidence": 0.85
+  },
+  {
+    "from": "Kz",
+    "to": "useStrategyTemplate",
+    "confidence": 0.92
+  },
+  {
+    "from": "yL",
+    "to": "getStrategySchema",
+    "confidence": 0.95
+  },
+  {
+    "from": "KN",
+    "to": "jsonSchemaToZod",
+    "confidence": 0.9
+  },
+  {
+    "from": "$z",
+    "to": "strategyHasParams",
+    "confidence": 0.92
+  },
+  {
+    "from": "pVe",
+    "to": "toUpdateBotInput",
+    "confidence": 0.93
+  },
+  {
+    "from": "qk",
+    "to": "defaultValuesFromSchema",
+    "confidence": 0.9
+  },
+  {
+    "from": "zN",
+    "to": "isObjectSchema",
+    "confidence": 0.88
+  },
+  {
+    "from": "O5e",
+    "to": "strategyParamsReducer",
+    "confidence": 0.95
+  },
+  {
+    "from": "T5e",
+    "to": "EMPTY_STRATEGY_PARAMS",
+    "confidence": 0.95
+  },
+  {
+    "from": "qz",
+    "to": "StrategyParamsContext",
+    "confidence": 0.95
+  },
+  {
+    "from": "jN",
+    "to": "useStrategyParam",
+    "confidence": 0.92
+  },
+  {
+    "from": "x5e",
+    "to": "useStrategyParamArray",
+    "confidence": 0.92
+  },
+  {
+    "from": "oO",
+    "to": "joinParamPath",
+    "confidence": 0.9
+  },
+  {
+    "from": "Hz",
+    "to": "StrategyParamsSchemaForm",
+    "confidence": 0.93
+  },
+  {
+    "from": "Gz",
+    "to": "StrategyNoParamsMessage",
+    "confidence": 0.95
+  },
+  {
+    "from": "Uz",
+    "to": "StrategySelectField",
+    "confidence": 0.95
+  },
+  {
+    "from": "A5e",
+    "to": "StrategySelect",
+    "confidence": 0.9
+  },
+  {
+    "from": "REe",
+    "to": "BotSettingsForm",
+    "confidence": 0.95
+  },
+  {
+    "from": "qB",
+    "to": "BOT_TYPE_PATHS",
+    "confidence": 0.98
+  },
+  {
+    "from": "yi",
+    "to": "Button",
+    "confidence": 0.85
+  },
+  {
+    "from": "Zt",
+    "to": "Box",
+    "confidence": 0.8
+  },
+  {
+    "from": "tn",
+    "to": "FormControl",
+    "confidence": 0.8
+  },
+  {
+    "from": "Pn",
+    "to": "FormLabel",
+    "confidence": 0.8
+  },
+  {
+    "from": "nr",
+    "to": "Sheet",
+    "confidence": 0.75
+  }
+]

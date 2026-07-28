@@ -1,0 +1,382 @@
+[
+  {
+    "from": "gVe",
+    "to": "DashboardBotEditIdPage"
+  },
+  {
+    "from": "Yz",
+    "to": "DashboardBotEditIdRoute"
+  },
+  {
+    "from": "ea",
+    "to": "createFileRoute"
+  },
+  {
+    "from": "Ys",
+    "to": "useTRPC"
+  },
+  {
+    "from": "Rs",
+    "to": "useQuery"
+  },
+  {
+    "from": "P",
+    "to": "jsxRuntime"
+  },
+  {
+    "from": "V",
+    "to": "React"
+  },
+  {
+    "from": "qT",
+    "to": "ErrorBoundary"
+  },
+  {
+    "from": "Vz",
+    "to": "StrategyParamsProvider"
+  },
+  {
+    "from": "mVe",
+    "to": "BotEditForm"
+  },
+  {
+    "from": "AVe",
+    "to": "LayoutDashboardBotEditIdRoute"
+  },
+  {
+    "from": "yo",
+    "to": "layoutRoute",
+    "role": "layout parent after update",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "yVe",
+    "to": "IndexRoute",
+    "role": "tree key IndexRoute",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "wVe",
+    "to": "LayoutDashboardStrategiesRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "bVe",
+    "to": "LayoutDashboardSettingsRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "kVe",
+    "to": "LayoutDashboardLoginRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "SVe",
+    "to": "LayoutDashboardAccountsRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "vVe",
+    "to": "LayoutDashboardBotIndexRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "TVe",
+    "to": "LayoutDashboardGridBotCreateRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "OVe",
+    "to": "LayoutDashboardGridBotIdRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "xVe",
+    "to": "LayoutDashboardDcaBotCreateRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "PVe",
+    "to": "LayoutDashboardDcaBotIdRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "IVe",
+    "to": "LayoutDashboardBotCreateRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "CVe",
+    "to": "LayoutDashboardBotIdRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "_Ve",
+    "to": "LayoutDashboardGridBotEditIdRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "MVe",
+    "to": "LayoutDashboardDcaBotEditIdRoute",
+    "role": "tree key",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "LVe",
+    "to": "layoutDashboardChildren",
+    "role": "children map",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "BVe",
+    "to": "layoutRouteWithChildren",
+    "role": "layout+children",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "RVe",
+    "to": "rootChildren",
+    "role": "Index+Layout map",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "NVe",
+    "to": "routeTree",
+    "role": "full tree",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "EVe",
+    "to": "history",
+    "role": "history instance",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "DVe",
+    "to": "router",
+    "role": "router instance",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "W3",
+    "to": "domRoot",
+    "role": "document.getElementById('root')",
+    "line": null,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "nme",
+    "to": "LayoutFileRoute",
+    "role": "ea(\"/_layout\")",
+    "line": 37878,
+    "path": "/_layout",
+    "component": "DashboardLayout"
+  },
+  {
+    "from": "ame",
+    "to": "IndexFileRoute",
+    "role": "ea(\"/\")",
+    "line": 37910,
+    "path": "/",
+    "component": "IndexRedirectPage"
+  },
+  {
+    "from": "swe",
+    "to": "StrategiesFileRoute",
+    "role": "strategies",
+    "line": 43673,
+    "path": "/_layout/dashboard/strategies",
+    "component": "StrategiesPage"
+  },
+  {
+    "from": "owe",
+    "to": "SettingsFileRoute",
+    "role": "settings",
+    "line": 43709,
+    "path": "/_layout/dashboard/settings",
+    "component": "SettingsPage"
+  },
+  {
+    "from": "cwe",
+    "to": "LoginFileRoute",
+    "role": "login",
+    "line": 43778,
+    "path": "/_layout/dashboard/login",
+    "component": "LoginPage"
+  },
+  {
+    "from": "Ake",
+    "to": "AccountsFileRoute",
+    "role": "accounts",
+    "line": 47013,
+    "path": "/_layout/dashboard/accounts",
+    "component": "AccountsPage"
+  },
+  {
+    "from": "zke",
+    "to": "BotIndexFileRoute",
+    "role": "bot index",
+    "line": 47368,
+    "path": "/_layout/dashboard/bot/",
+    "component": "BotsPage"
+  },
+  {
+    "from": "Qke",
+    "to": "GridBotCreateFileRoute",
+    "role": "grid create lazy",
+    "line": 47455,
+    "path": "/_layout/dashboard/grid-bot/create",
+    "component": "GridBotCreatePageLazy"
+  },
+  {
+    "from": "J7",
+    "to": "GridBotIdFileRoute",
+    "role": "grid $id",
+    "line": 237281,
+    "path": "/_layout/dashboard/grid-bot/$id",
+    "component": "GridBotIdPage"
+  },
+  {
+    "from": "m5e",
+    "to": "DcaBotCreateFileRoute",
+    "role": "dca create",
+    "line": 243636,
+    "path": "/_layout/dashboard/dca-bot/create",
+    "component": "DcaBotCreatePage"
+  },
+  {
+    "from": "Dz",
+    "to": "DcaBotIdFileRoute",
+    "role": "dca $id",
+    "line": 243764,
+    "path": "/_layout/dashboard/dca-bot/$id",
+    "component": "DcaBotIdPage"
+  },
+  {
+    "from": "Xz",
+    "to": "BotCreateFileRoute",
+    "role": "bot create",
+    "line": 249353,
+    "path": "/_layout/dashboard/bot/create",
+    "component": "BotCreatePage"
+  },
+  {
+    "from": "Qz",
+    "to": "BotIdFileRoute",
+    "role": "bot $id",
+    "line": 249545,
+    "path": "/_layout/dashboard/bot/$id",
+    "component": "BotIdPage"
+  },
+  {
+    "from": "lVe",
+    "to": "GridBotEditFileRoute",
+    "role": "grid edit lazy",
+    "line": 249552,
+    "path": "/_layout/dashboard/grid-bot/edit/$id",
+    "component": "GridBotEditPageLazy"
+  },
+  {
+    "from": "fVe",
+    "to": "DcaBotEditFileRoute",
+    "role": "dca edit lazy",
+    "line": 249554,
+    "path": "/_layout/dashboard/dca-bot/edit/$id",
+    "component": "DcaBotEditPageLazy"
+  },
+  {
+    "from": "KB",
+    "to": "rootRoute",
+    "role": "createRootRoute",
+    "line": 35814,
+    "path": null,
+    "component": "RootProviders"
+  },
+  {
+    "from": "NK",
+    "to": "createBrowserHistory",
+    "role": "hash history factory",
+    "line": 8565,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "XX",
+    "to": "createRouter",
+    "role": "(opts) => new Router(opts)",
+    "line": 12875,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "MK",
+    "to": "ReactDOM",
+    "role": "createRoot host",
+    "line": 8140,
+    "path": null,
+    "component": null
+  },
+  {
+    "from": "ZX",
+    "to": "RouterProvider",
+    "role": "RouterProvider",
+    "line": 12890,
+    "path": null,
+    "component": null
+  }
+]

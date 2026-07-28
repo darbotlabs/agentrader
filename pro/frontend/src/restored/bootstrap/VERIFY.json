@@ -1,0 +1,85 @@
+{
+  "ok": true,
+  "bootstrapBindingsTarget": 42,
+  "bootstrapBindingsEmitted": 42,
+  "remainingInBootstrapList": 0,
+  "corePageAlreadyRestored": 11,
+  "totalNamedInSnippetBootstrap": 53,
+  "checks": [
+    {
+      "key": "IndexRoute",
+      "path": "/",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardStrategiesRoute",
+      "path": "/dashboard/strategies",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardSettingsRoute",
+      "path": "/dashboard/settings",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardLoginRoute",
+      "path": "/dashboard/login",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardAccountsRoute",
+      "path": "/dashboard/accounts",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardBotIndexRoute",
+      "path": "/dashboard/bot/",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardGridBotCreateRoute",
+      "path": "/dashboard/grid-bot/create",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardGridBotIdRoute",
+      "path": "/dashboard/grid-bot/$id",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardDcaBotCreateRoute",
+      "path": "/dashboard/dca-bot/create",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardDcaBotIdRoute",
+      "path": "/dashboard/dca-bot/$id",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardBotCreateRoute",
+      "path": "/dashboard/bot/create",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardBotIdRoute",
+      "path": "/dashboard/bot/$id",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardGridBotEditIdRoute",
+      "path": "/dashboard/grid-bot/edit/$id",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardDcaBotEditIdRoute",
+      "path": "/dashboard/dca-bot/edit/$id",
+      "ok": true
+    },
+    {
+      "key": "LayoutDashboardBotEditIdRoute",
+      "path": "/dashboard/bot/edit/$id",
+      "ok": true
+    }
+  ]
+}

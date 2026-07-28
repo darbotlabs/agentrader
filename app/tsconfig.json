@@ -1,0 +1,68 @@
+{
+  "extends": "@agentrader/tsconfig/esm.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../dts/app",
+    "paths": {
+      "@agentrader/backtesting": ["../packages/backtesting/src/index.ts"],
+      "@agentrader/backtesting/*": ["../packages/backtesting/src/*"],
+      "@agentrader/bot": ["../packages/bot/src/index.ts"],
+      "@agentrader/bot/*": ["../packages/bot/src/*"],
+      "@agentrader/bot-processor": ["../packages/bot-processor/src/index.ts"],
+      "@agentrader/bot-processor/*": ["../packages/bot-processor/src/*"],
+      "@agentrader/bot-templates": ["../packages/bot-templates/src/index.ts"],
+      "@agentrader/bot-templates/*": ["../packages/bot-templates/src/*"],
+      "@agentrader/db": ["../packages/db/src/index.ts"],
+      "@agentrader/db/*": ["../packages/db/src/*"],
+      "@agentrader/exchanges": ["../packages/exchanges/src/index.ts"],
+      "@agentrader/exchanges/*": ["../packages/exchanges/src/*"],
+      "@agentrader/logger": ["../packages/logger/src/index.ts"],
+      "@agentrader/logger/*": ["../packages/logger/src/*"],
+      "@agentrader/tools": ["../packages/tools/src/index.ts"],
+      "@agentrader/tools/*": ["../packages/tools/src/*"],
+      "@agentrader/trpc": ["../packages/trpc/src/index.ts"],
+      "@agentrader/trpc/*": ["../packages/trpc/src/*"],
+      "@agentrader/tsconfig/*": ["../packages/tsconfig/*"],
+      "@agentrader/types": ["../packages/types/src/index.ts"],
+      "@agentrader/types/*": ["../packages/types/src/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "files": ["package.json"],
+  "references": [
+    {
+      "path": "../packages/backtesting"
+    },
+    {
+      "path": "../packages/bot"
+    },
+    {
+      "path": "../packages/bot-processor"
+    },
+    {
+      "path": "../packages/bot-templates"
+    },
+    {
+      "path": "../packages/db"
+    },
+    {
+      "path": "../packages/exchanges"
+    },
+    {
+      "path": "../packages/logger"
+    },
+    {
+      "path": "../packages/tools"
+    },
+    {
+      "path": "../packages/trpc"
+    },
+    {
+      "path": "../packages/tsconfig"
+    },
+    {
+      "path": "../packages/types"
+    }
+  ]
+}

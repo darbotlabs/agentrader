@@ -1,0 +1,50 @@
+21076:  safetyOrders: rB(
+21084:  ({ sl: c, safetyOrders: e }) => {
+21106:    highPrice: 0,
+21108:    gridLinesNumber: Cse,
+21114:    name: "gridBotForm",
+21136:        c.highPrice = e.payload;
+21139:        c.highPrice = e.payload;
+21148:        c.gridLinesNumber = e.payload;
+21667:      safetyOrdersCount: Wse,
+21668:      safetyOrdersVolumeScale: jse,
+21669:      safetyOrdersPriceScale: zse,
+21670:      safetyOrdersPriceDeviation: dB,
+21672:    safetyOrders: [],
+21677:    name: "dcaBotForm",
+21750:        c.simple.safetyOrdersCount = e.payload;
+21753:        c.simple.safetyOrdersCount = e.payload;
+21756:        c.simple.safetyOrdersVolumeScale = e.payload;
+21759:        c.simple.safetyOrdersVolumeScale = e.payload;
+21762:        c.simple.safetyOrdersPriceScale = e.payload;
+21765:        c.simple.safetyOrdersPriceScale = e.payload;
+21768:        c.simple.safetyOrdersPriceDeviation = e.payload;
+21771:        c.simple.safetyOrdersPriceDeviation = e.payload;
+21774:        c.safetyOrders = e.payload;
+21777:        c.safetyOrders = e.payload;
+21780:        c.safetyOrders.push(e.payload);
+21784:        c.safetyOrders.splice(t, 1);
+21788:        c.safetyOrders[t].priceDeviation = s;
+21792:        c.safetyOrders[t].quantity = s;
+21827:  Sie = (c) => c.dcaBotForm,
+21828:  vie = (c) => c.dcaBotForm.botName,
+21829:  Tie = (c) => c.dcaBotForm.barSize,
+21830:  Oie = (c) => c.dcaBotForm.exchangeAccountId,
+21831:  EI = (c) => c.dcaBotForm.isDemoAccount,
+21832:  DI = (c) => c.dcaBotForm.symbolId,
+21833:  xie = (c) => c.dcaBotForm.entryOrderType,
+21834:  Pie = (c) => c.dcaBotForm.entryOrderQuantity,
+21835:  Iie = (c) => c.dcaBotForm.entryConditions,
+21836:  NH = (c) => c.dcaBotForm.takeProfitPercent,
+21837:  EH = (c) => c.dcaBotForm.stopLossPercent,
+21838:  cB = (c) => c.dcaBotForm.stopLossEnabled,
+21839:  DH = (c) => c.dcaBotForm.safetyOrders,
+21840:  qH = (c) => (e) => e.dcaBotForm.safetyOrders[c],
+21841:  Cie = fH({ reducer: { dcaBotForm: RH.reducer, gridBotForm: OH.reducer }, devTools: !0 }),
+47154:      i = e.settings.safetyOrders.length,
+74138:        u = this.safeString(e, "highPrice24h"),
+85012:            high: this.safeString2(e, "highPrice", "high"),
+89504:        o = this.safeString(e, "highPrice"),
+102994:          high: this.safeString(e, "highPrice"),
+105172:            high: this.safeString2(e, "highPrice", "high"),
+108620:      h = this.safeString2(e, "highPrice24", "highest_price_24h"),

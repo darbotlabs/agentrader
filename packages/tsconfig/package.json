@@ -1,0 +1,19 @@
+{
+  "name": "@agentrader/tsconfig",
+  "version": "0.0.0",
+  "description": "TypeScript configuration from agentrader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Open-Trader/agentrader.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "agentrader"
+  ],
+  "author": "darbotlabs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Open-Trader/agentrader/issues"
+  },
+  "homepage": "https://github.com/Open-Trader/agentrader/tree/master/packages/tsconfig"
+}

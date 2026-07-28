@@ -1,0 +1,1042 @@
+{
+  "unit": "bot-edit",
+  "pass": 6,
+  "evidenceBundle": "index-DTKnr6h1.js",
+  "pass1": {
+    "gVe": "DashboardBotEditIdPage",
+    "ea": "createFileRoute",
+    "AVe": "LayoutDashboardBotEditIdRoute",
+    "Ys": "useTRPC",
+    "Rs": "useQuery"
+  },
+  "pass2": [
+    {
+      "mangled": "qT",
+      "restored": "ErrorBoundary",
+      "line": 35799
+    },
+    {
+      "mangled": "Vz",
+      "restored": "StrategyParamsProvider",
+      "line": 248564
+    },
+    {
+      "mangled": "mVe",
+      "restored": "BotEditForm",
+      "line": 249563
+    }
+  ],
+  "pass3": [
+    {
+      "mangled": "O5e",
+      "restored": "strategyParamsReducer",
+      "status": "restored",
+      "evidenceLine": 248540,
+      "method": "function"
+    },
+    {
+      "mangled": "T5e",
+      "restored": "EMPTY_STRATEGY_PARAMS",
+      "status": "restored",
+      "evidenceLine": 248539,
+      "method": "line-const"
+    },
+    {
+      "mangled": "qz",
+      "restored": "StrategyParamsContext",
+      "status": "restored",
+      "evidenceLine": 248563,
+      "method": "line-const"
+    },
+    {
+      "mangled": "cS",
+      "restored": "useStrategyParams",
+      "status": "restored",
+      "evidenceLine": 248568,
+      "method": "arrow"
+    },
+    {
+      "mangled": "jN",
+      "restored": "useStrategyParam",
+      "status": "restored",
+      "evidenceLine": 248573,
+      "method": "arrow"
+    },
+    {
+      "mangled": "x5e",
+      "restored": "useStrategyParamArray",
+      "status": "restored",
+      "evidenceLine": 248582,
+      "method": "arrow"
+    },
+    {
+      "mangled": "oO",
+      "restored": "joinParamPath",
+      "status": "restored",
+      "evidenceLine": 248595,
+      "method": "function"
+    },
+    {
+      "mangled": "qk",
+      "restored": "defaultValuesFromSchema",
+      "status": "restored",
+      "evidenceLine": 248603,
+      "method": "function"
+    },
+    {
+      "mangled": "zN",
+      "restored": "isObjectSchema",
+      "status": "restored",
+      "evidenceLine": 248617,
+      "method": "arrow"
+    },
+    {
+      "mangled": "yL",
+      "restored": "getStrategySchema",
+      "status": "restored",
+      "evidenceLine": 249261,
+      "method": "function"
+    },
+    {
+      "mangled": "KN",
+      "restored": "jsonSchemaToZod",
+      "status": "restored",
+      "evidenceLine": 249257,
+      "method": "function"
+    },
+    {
+      "mangled": "$z",
+      "restored": "strategyHasParams",
+      "status": "restored",
+      "evidenceLine": 249253,
+      "method": "function"
+    },
+    {
+      "mangled": "Kz",
+      "restored": "useStrategyTemplate",
+      "status": "restored",
+      "evidenceLine": 249265,
+      "method": "function"
+    },
+    {
+      "mangled": "pVe",
+      "restored": "toUpdateBotInput",
+      "status": "restored",
+      "evidenceLine": 249555,
+      "method": "function"
+    },
+    {
+      "mangled": "Hz",
+      "restored": "StrategyParamsSchemaForm",
+      "status": "restored",
+      "evidenceLine": 248762,
+      "method": "arrow"
+    },
+    {
+      "mangled": "Gz",
+      "restored": "StrategyNoParamsMessage",
+      "status": "restored",
+      "evidenceLine": 248795,
+      "method": "arrow"
+    },
+    {
+      "mangled": "A5e",
+      "restored": "StrategySelect",
+      "status": "restored",
+      "evidenceLine": 248798,
+      "method": "arrow"
+    },
+    {
+      "mangled": "Uz",
+      "restored": "StrategySelectField",
+      "status": "restored",
+      "evidenceLine": 248810,
+      "method": "arrow"
+    },
+    {
+      "mangled": "REe",
+      "restored": "BotSettingsForm",
+      "status": "restored",
+      "evidenceLine": 237553,
+      "method": "arrow"
+    },
+    {
+      "mangled": "Js",
+      "restored": "pathTo",
+      "status": "restored",
+      "evidenceLine": 32365,
+      "method": "function"
+    },
+    {
+      "mangled": "qB",
+      "restored": "BOT_TYPE_PATHS",
+      "status": "restored",
+      "evidenceLine": 32369,
+      "method": "raw-window"
+    },
+    {
+      "mangled": "Ud",
+      "restored": "useSnackbar",
+      "status": "restored",
+      "evidenceLine": 32422,
+      "method": "function"
+    },
+    {
+      "mangled": "ju",
+      "restored": "useNavigate",
+      "status": "restored",
+      "evidenceLine": 10771,
+      "method": "function"
+    },
+    {
+      "mangled": "Xo",
+      "restored": "useMutation",
+      "status": "restored",
+      "evidenceLine": 24562,
+      "method": "function"
+    }
+  ],
+  "nextGaps": [
+    "DashboardLayout drawer chrome (ope/ime)",
+    "RootProviders intermediate providers (Gce/fue/_ie/Bue/vfe/xJ/CL) full bodies",
+    "DcaBotCreatePage full redux form graph",
+    "Grid/DCA detail panels (MEe/b5e/cVe)",
+    "StrategyCard J0e, AccountsTable Pbe dialogs",
+    "Lazy chunk source for page-B7/Dps6/CAOt (separate files)",
+    "Export-table ABI (~103) for non-bootstrap features"
+  ],
+  "renameMap": [
+    {
+      "from": "gVe",
+      "to": "DashboardBotEditIdPage",
+      "confidence": 0.9
+    },
+    {
+      "from": "Yz",
+      "to": "DashboardBotEditIdRoute",
+      "confidence": 0.9
+    },
+    {
+      "from": "ea",
+      "to": "createFileRoute",
+      "confidence": 0.9
+    },
+    {
+      "from": "AVe",
+      "to": "LayoutDashboardBotEditIdRoute",
+      "confidence": 0.98
+    },
+    {
+      "from": "Ys",
+      "to": "useTRPC",
+      "confidence": 0.95
+    },
+    {
+      "from": "Rs",
+      "to": "useQuery",
+      "confidence": 0.95
+    },
+    {
+      "from": "Xo",
+      "to": "useMutation",
+      "confidence": 0.95
+    },
+    {
+      "from": "qT",
+      "to": "ErrorBoundary",
+      "confidence": 0.95
+    },
+    {
+      "from": "Vz",
+      "to": "StrategyParamsProvider",
+      "confidence": 0.95
+    },
+    {
+      "from": "mVe",
+      "to": "BotEditForm",
+      "confidence": 0.9
+    },
+    {
+      "from": "cS",
+      "to": "useStrategyParams",
+      "confidence": 0.98
+    },
+    {
+      "from": "Ud",
+      "to": "useSnackbar",
+      "confidence": 0.95
+    },
+    {
+      "from": "ju",
+      "to": "useNavigate",
+      "confidence": 0.95
+    },
+    {
+      "from": "Js",
+      "to": "pathTo",
+      "confidence": 0.95
+    },
+    {
+      "from": "P",
+      "to": "jsxRuntime",
+      "confidence": 0.9
+    },
+    {
+      "from": "V",
+      "to": "React",
+      "confidence": 0.9
+    },
+    {
+      "from": "Ct",
+      "to": "Typography",
+      "confidence": 0.85
+    },
+    {
+      "from": "zt",
+      "to": "Grid",
+      "confidence": 0.85
+    },
+    {
+      "from": "mn",
+      "to": "Skeleton",
+      "confidence": 0.85
+    },
+    {
+      "from": "Kz",
+      "to": "useStrategyTemplate",
+      "confidence": 0.92
+    },
+    {
+      "from": "yL",
+      "to": "getStrategySchema",
+      "confidence": 0.95
+    },
+    {
+      "from": "KN",
+      "to": "jsonSchemaToZod",
+      "confidence": 0.9
+    },
+    {
+      "from": "$z",
+      "to": "strategyHasParams",
+      "confidence": 0.92
+    },
+    {
+      "from": "pVe",
+      "to": "toUpdateBotInput",
+      "confidence": 0.93
+    },
+    {
+      "from": "qk",
+      "to": "defaultValuesFromSchema",
+      "confidence": 0.9
+    },
+    {
+      "from": "zN",
+      "to": "isObjectSchema",
+      "confidence": 0.88
+    },
+    {
+      "from": "O5e",
+      "to": "strategyParamsReducer",
+      "confidence": 0.95
+    },
+    {
+      "from": "T5e",
+      "to": "EMPTY_STRATEGY_PARAMS",
+      "confidence": 0.95
+    },
+    {
+      "from": "qz",
+      "to": "StrategyParamsContext",
+      "confidence": 0.95
+    },
+    {
+      "from": "jN",
+      "to": "useStrategyParam",
+      "confidence": 0.92
+    },
+    {
+      "from": "x5e",
+      "to": "useStrategyParamArray",
+      "confidence": 0.92
+    },
+    {
+      "from": "oO",
+      "to": "joinParamPath",
+      "confidence": 0.9
+    },
+    {
+      "from": "Hz",
+      "to": "StrategyParamsSchemaForm",
+      "confidence": 0.93
+    },
+    {
+      "from": "Gz",
+      "to": "StrategyNoParamsMessage",
+      "confidence": 0.95
+    },
+    {
+      "from": "Uz",
+      "to": "StrategySelectField",
+      "confidence": 0.95
+    },
+    {
+      "from": "A5e",
+      "to": "StrategySelect",
+      "confidence": 0.9
+    },
+    {
+      "from": "REe",
+      "to": "BotSettingsForm",
+      "confidence": 0.95
+    },
+    {
+      "from": "qB",
+      "to": "BOT_TYPE_PATHS",
+      "confidence": 0.98
+    },
+    {
+      "from": "yi",
+      "to": "Button",
+      "confidence": 0.85
+    },
+    {
+      "from": "Zt",
+      "to": "Box",
+      "confidence": 0.8
+    },
+    {
+      "from": "tn",
+      "to": "FormControl",
+      "confidence": 0.8
+    },
+    {
+      "from": "Pn",
+      "to": "FormLabel",
+      "confidence": 0.8
+    },
+    {
+      "from": "nr",
+      "to": "Sheet",
+      "confidence": 0.75
+    }
+  ],
+  "pass4": [
+    {
+      "mangled": "zl",
+      "restored": "useControllableState",
+      "status": "restored",
+      "evidenceLine": 237288,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "AEe",
+      "restored": "isControlled",
+      "status": "restored",
+      "evidenceLine": 237287,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "sz",
+      "restored": "BotNameField",
+      "status": "restored",
+      "evidenceLine": 237478,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "iz",
+      "restored": "TimeframeField",
+      "status": "restored",
+      "evidenceLine": 237495,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "tz",
+      "restored": "ExchangeField",
+      "status": "restored",
+      "evidenceLine": 237460,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "ez",
+      "restored": "SymbolField",
+      "status": "restored",
+      "evidenceLine": 237446,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "nz",
+      "restored": "LoggingSwitch",
+      "status": "restored",
+      "evidenceLine": 237499,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "BN",
+      "restored": "generateBotName",
+      "status": "restored",
+      "evidenceLine": 237441,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "I3",
+      "restored": "pickDefaultSymbol",
+      "status": "restored",
+      "evidenceLine": 237501,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "BEe",
+      "restored": "pickDefaultExchangeAccount",
+      "status": "restored",
+      "evidenceLine": 237505,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "oS",
+      "restored": "TimeframeSelect",
+      "status": "restored",
+      "evidenceLine": 236466,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "iO",
+      "restored": "ExchangeAccountSelect",
+      "status": "restored",
+      "evidenceLine": 235675,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "nO",
+      "restored": "SymbolSelect",
+      "status": "restored",
+      "evidenceLine": 236444,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "BI",
+      "restored": "composeSymbolId",
+      "status": "restored",
+      "evidenceLine": 21613,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "RI",
+      "restored": "getBaseCurrency",
+      "status": "restored",
+      "evidenceLine": 21632,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "NI",
+      "restored": "getQuoteCurrency",
+      "status": "restored",
+      "evidenceLine": 21636,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "oB",
+      "restored": "decomposeSymbolId",
+      "status": "restored",
+      "evidenceLine": 21622,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "ah",
+      "restored": "splitCurrencyPair",
+      "status": "restored",
+      "evidenceLine": 21628,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "Vy",
+      "restored": "useHasChanged",
+      "status": "restored",
+      "evidenceLine": 56744,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "$f",
+      "restored": "useDeveloperMode",
+      "status": "restored",
+      "evidenceLine": 43674,
+      "method": "canonical-from-evidence"
+    }
+  ],
+  "pass5": [
+    {
+      "mangled": "$N",
+      "restored": "SchemaObjectFields",
+      "status": "restored",
+      "evidenceLine": 248731,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "G3",
+      "restored": "SchemaTextField",
+      "status": "restored",
+      "evidenceLine": 248612,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "C5e",
+      "restored": "SchemaArrayField",
+      "status": "restored",
+      "evidenceLine": 248657,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "_5e",
+      "restored": "SchemaBooleanField",
+      "status": "restored",
+      "evidenceLine": 248689,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "M5e",
+      "restored": "SchemaEnumField",
+      "status": "restored",
+      "evidenceLine": 248701,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "P5e",
+      "restored": "isArraySchema",
+      "status": "restored",
+      "evidenceLine": 248610,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "J5e",
+      "restored": "jsonSchemaToZodSource",
+      "status": "restored",
+      "evidenceLine": 249220,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "xse",
+      "restored": "zodRuntime",
+      "status": "restored",
+      "evidenceLine": 20943,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "Xk",
+      "restored": "Select",
+      "status": "restored",
+      "evidenceLine": 41166,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "Xm",
+      "restored": "Option",
+      "status": "restored",
+      "evidenceLine": 40372,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "fo",
+      "restored": "produce",
+      "status": "restored",
+      "evidenceLine": 18085,
+      "method": "canonical-from-evidence"
+    },
+    {
+      "mangled": "Dy",
+      "restored": "pathUtil",
+      "status": "restored",
+      "evidenceLine": 248538,
+      "method": "canonical-from-evidence"
+    }
+  ],
+  "bootstrapComplete": {
+    "previouslyRemaining": 42,
+    "restoredNow": 42,
+    "remaining": 0,
+    "bindings": [
+      {
+        "from": "yo",
+        "to": "layoutRoute",
+        "role": "layout parent after update",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "yVe",
+        "to": "IndexRoute",
+        "role": "tree key IndexRoute",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "wVe",
+        "to": "LayoutDashboardStrategiesRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "bVe",
+        "to": "LayoutDashboardSettingsRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "kVe",
+        "to": "LayoutDashboardLoginRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "SVe",
+        "to": "LayoutDashboardAccountsRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "vVe",
+        "to": "LayoutDashboardBotIndexRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "TVe",
+        "to": "LayoutDashboardGridBotCreateRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "OVe",
+        "to": "LayoutDashboardGridBotIdRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "xVe",
+        "to": "LayoutDashboardDcaBotCreateRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "PVe",
+        "to": "LayoutDashboardDcaBotIdRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "IVe",
+        "to": "LayoutDashboardBotCreateRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "CVe",
+        "to": "LayoutDashboardBotIdRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "_Ve",
+        "to": "LayoutDashboardGridBotEditIdRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "MVe",
+        "to": "LayoutDashboardDcaBotEditIdRoute",
+        "role": "tree key",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "LVe",
+        "to": "layoutDashboardChildren",
+        "role": "children map",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "BVe",
+        "to": "layoutRouteWithChildren",
+        "role": "layout+children",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "RVe",
+        "to": "rootChildren",
+        "role": "Index+Layout map",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "NVe",
+        "to": "routeTree",
+        "role": "full tree",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "EVe",
+        "to": "history",
+        "role": "history instance",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "DVe",
+        "to": "router",
+        "role": "router instance",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "W3",
+        "to": "domRoot",
+        "role": "document.getElementById('root')",
+        "line": null,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "nme",
+        "to": "LayoutFileRoute",
+        "role": "ea(\"/_layout\")",
+        "line": 37878,
+        "path": "/_layout",
+        "component": "DashboardLayout"
+      },
+      {
+        "from": "ame",
+        "to": "IndexFileRoute",
+        "role": "ea(\"/\")",
+        "line": 37910,
+        "path": "/",
+        "component": "IndexRedirectPage"
+      },
+      {
+        "from": "swe",
+        "to": "StrategiesFileRoute",
+        "role": "strategies",
+        "line": 43673,
+        "path": "/_layout/dashboard/strategies",
+        "component": "StrategiesPage"
+      },
+      {
+        "from": "owe",
+        "to": "SettingsFileRoute",
+        "role": "settings",
+        "line": 43709,
+        "path": "/_layout/dashboard/settings",
+        "component": "SettingsPage"
+      },
+      {
+        "from": "cwe",
+        "to": "LoginFileRoute",
+        "role": "login",
+        "line": 43778,
+        "path": "/_layout/dashboard/login",
+        "component": "LoginPage"
+      },
+      {
+        "from": "Ake",
+        "to": "AccountsFileRoute",
+        "role": "accounts",
+        "line": 47013,
+        "path": "/_layout/dashboard/accounts",
+        "component": "AccountsPage"
+      },
+      {
+        "from": "zke",
+        "to": "BotIndexFileRoute",
+        "role": "bot index",
+        "line": 47368,
+        "path": "/_layout/dashboard/bot/",
+        "component": "BotsPage"
+      },
+      {
+        "from": "Qke",
+        "to": "GridBotCreateFileRoute",
+        "role": "grid create lazy",
+        "line": 47455,
+        "path": "/_layout/dashboard/grid-bot/create",
+        "component": "GridBotCreatePageLazy"
+      },
+      {
+        "from": "J7",
+        "to": "GridBotIdFileRoute",
+        "role": "grid $id",
+        "line": 237281,
+        "path": "/_layout/dashboard/grid-bot/$id",
+        "component": "GridBotIdPage"
+      },
+      {
+        "from": "m5e",
+        "to": "DcaBotCreateFileRoute",
+        "role": "dca create",
+        "line": 243636,
+        "path": "/_layout/dashboard/dca-bot/create",
+        "component": "DcaBotCreatePage"
+      },
+      {
+        "from": "Dz",
+        "to": "DcaBotIdFileRoute",
+        "role": "dca $id",
+        "line": 243764,
+        "path": "/_layout/dashboard/dca-bot/$id",
+        "component": "DcaBotIdPage"
+      },
+      {
+        "from": "Xz",
+        "to": "BotCreateFileRoute",
+        "role": "bot create",
+        "line": 249353,
+        "path": "/_layout/dashboard/bot/create",
+        "component": "BotCreatePage"
+      },
+      {
+        "from": "Qz",
+        "to": "BotIdFileRoute",
+        "role": "bot $id",
+        "line": 249545,
+        "path": "/_layout/dashboard/bot/$id",
+        "component": "BotIdPage"
+      },
+      {
+        "from": "lVe",
+        "to": "GridBotEditFileRoute",
+        "role": "grid edit lazy",
+        "line": 249552,
+        "path": "/_layout/dashboard/grid-bot/edit/$id",
+        "component": "GridBotEditPageLazy"
+      },
+      {
+        "from": "fVe",
+        "to": "DcaBotEditFileRoute",
+        "role": "dca edit lazy",
+        "line": 249554,
+        "path": "/_layout/dashboard/dca-bot/edit/$id",
+        "component": "DcaBotEditPageLazy"
+      },
+      {
+        "from": "KB",
+        "to": "rootRoute",
+        "role": "createRootRoute",
+        "line": 35814,
+        "path": null,
+        "component": "RootProviders"
+      },
+      {
+        "from": "NK",
+        "to": "createBrowserHistory",
+        "role": "hash history factory",
+        "line": 8565,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "XX",
+        "to": "createRouter",
+        "role": "(opts) => new Router(opts)",
+        "line": 12875,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "MK",
+        "to": "ReactDOM",
+        "role": "createRoot host",
+        "line": 8140,
+        "path": null,
+        "component": null
+      },
+      {
+        "from": "ZX",
+        "to": "RouterProvider",
+        "role": "RouterProvider",
+        "line": 12890,
+        "path": null,
+        "component": null
+      }
+    ],
+    "alreadyRestoredCore": [
+      {
+        "from": "gVe",
+        "to": "DashboardBotEditIdPage"
+      },
+      {
+        "from": "Yz",
+        "to": "DashboardBotEditIdRoute"
+      },
+      {
+        "from": "ea",
+        "to": "createFileRoute"
+      },
+      {
+        "from": "Ys",
+        "to": "useTRPC"
+      },
+      {
+        "from": "Rs",
+        "to": "useQuery"
+      },
+      {
+        "from": "P",
+        "to": "jsxRuntime"
+      },
+      {
+        "from": "V",
+        "to": "React"
+      },
+      {
+        "from": "qT",
+        "to": "ErrorBoundary"
+      },
+      {
+        "from": "Vz",
+        "to": "StrategyParamsProvider"
+      },
+      {
+        "from": "mVe",
+        "to": "BotEditForm"
+      },
+      {
+        "from": "AVe",
+        "to": "LayoutDashboardBotEditIdRoute"
+      }
+    ]
+  }
+}

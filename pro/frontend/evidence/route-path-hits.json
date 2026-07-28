@@ -1,0 +1,14 @@
+[
+  {
+    "line": 32356,
+    "text": "  \"bot/edit/:id\": (c) => `/dashboard/bot/edit/${c}`,"
+  },
+  {
+    "line": 249634,
+    "text": "const Yz = ea(\"/_layout/dashboard/bot/edit/$id\")({ component: gVe }),"
+  },
+  {
+    "line": 249658,
+    "text": "  AVe = Yz.update({ id: \"/dashboard/bot/edit/$id\", path: \"/dashboard/bot/edit/$id\", getParentRoute: () => yo }),"
+  }
+]

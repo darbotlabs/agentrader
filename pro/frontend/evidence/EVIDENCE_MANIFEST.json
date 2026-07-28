@@ -1,0 +1,1170 @@
+{
+  "$schema": "agentrader.pro-ui.evidence/v1",
+  "source": {
+    "path": "C:\\Users\\darbot\\Downloads\\opentrader-dev\\AgentTrader\\app\\frontend\\assets\\index-DTKnr6h1.js",
+    "relativeFromFrontend": "../../app/frontend/assets/index-DTKnr6h1.js",
+    "sha256": "a5352227d053c92889a615be1b30774c8e852dddb43f9f06235e7285ab1d923c",
+    "bytes": 8693186,
+    "lines": 249814,
+    "extractedAt": "2026-07-12T09:16:51.058Z",
+    "chunks": [
+      {
+        "name": "index-DTKnr6h1.js",
+        "sha256": "a5352227d053c92889a615be1b30774c8e852dddb43f9f06235e7285ab1d923c",
+        "bytes": 8693186,
+        "lines": 249814
+      },
+      {
+        "name": "page-B7EduWBL.js",
+        "sha256": "002392663588228e093084f5eecaa40377e56d03198d8553d687f7479f583b93",
+        "bytes": 4773,
+        "lines": 196
+      },
+      {
+        "name": "page-Dps6Us_X.js",
+        "sha256": "48e365e24c33e824c41b54546cdc0bb7b320f8c1b06e9dfd43979195dc7b8931",
+        "bytes": 4788,
+        "lines": 204
+      },
+      {
+        "name": "page-CAOt1VfL.js",
+        "sha256": "07cf61346a0f30faa541a885c6ddce8fadee8d17d7d3cf8f233b94a4387a826b",
+        "bytes": 5127,
+        "lines": 221
+      },
+      {
+        "name": "SimpleGridForm-BUsQPU4Z.js",
+        "sha256": "c728dcbd190b11b4dd1014be07920c9f410d5d6d1a3f55f169cefbcb2d874045",
+        "bytes": 19556,
+        "lines": 742
+      }
+    ]
+  },
+  "summary": {
+    "claimCount": 103,
+    "claimOk": 103,
+    "claimMissing": 0,
+    "routePathCount": 29,
+    "layoutKeyCount": 14,
+    "formKeyCount": 19,
+    "rpcCount": 55
+  },
+  "claims": {
+    "meta.app_title": {
+      "id": "meta.app_title",
+      "pattern": "title>agentrader|\"agentrader\"",
+      "file": "index-DTKnr6h1.js",
+      "line": 43712,
+      "excerpt": "    [s, i] = V.useState(\"agentrader\"),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43712"
+    },
+    "meta.backend_default": {
+      "id": "meta.backend_default",
+      "pattern": "localhost:8000",
+      "file": "index-DTKnr6h1.js",
+      "line": 25907,
+      "excerpt": "  XD = \"http://localhost:8000\";",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:25907"
+    },
+    "meta.api_trpc": {
+      "id": "meta.api_trpc",
+      "pattern": "api/trpc",
+      "file": "index-DTKnr6h1.js",
+      "line": 32402,
+      "excerpt": "              url: `${w8()}/api/trpc`,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:32402"
+    },
+    "storage.APP_URL": {
+      "id": "storage.APP_URL",
+      "pattern": "APP_URL",
+      "file": "index-DTKnr6h1.js",
+      "line": 25904,
+      "excerpt": "const gA = \"APP_URL\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:25904"
+    },
+    "storage.ADMIN_PASSWORD": {
+      "id": "storage.ADMIN_PASSWORD",
+      "pattern": "ADMIN_PASSWORD",
+      "file": "index-DTKnr6h1.js",
+      "line": 25905,
+      "excerpt": "  yB = \"ADMIN_PASSWORD\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:25905"
+    },
+    "storage.DEVELOPER_MODE_ENABLED": {
+      "id": "storage.DEVELOPER_MODE_ENABLED",
+      "pattern": "DEVELOPER_MODE_ENABLED",
+      "file": "index-DTKnr6h1.js",
+      "line": 25906,
+      "excerpt": "  hM = \"DEVELOPER_MODE_ENABLED\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:25906"
+    },
+    "ui.login.welcome": {
+      "id": "ui.login.welcome",
+      "pattern": "Welcome Trader",
+      "file": "index-DTKnr6h1.js",
+      "line": 43732,
+      "excerpt": "      P.jsx(Ct, { component: \"h1\", level: \"h4\", children: \"Welcome Trader!\" }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43732"
+    },
+    "ui.login.sign_in": {
+      "id": "ui.login.sign_in",
+      "pattern": "Sign in to continue",
+      "file": "index-DTKnr6h1.js",
+      "line": 43733,
+      "excerpt": "      P.jsx(Ct, { level: \"body-sm\", children: \"Sign in to continue.\" }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43733"
+    },
+    "ui.login.backend_url": {
+      "id": "ui.login.backend_url",
+      "pattern": "Backend URL",
+      "file": "index-DTKnr6h1.js",
+      "line": 36797,
+      "excerpt": "        P.jsx(jm, { children: P.jsxs(tn, { children: [P.jsx(Pn, { children: \"Backend URL\" }), P.jsx(Z8, {})] }) }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:36797"
+    },
+    "ui.login.username": {
+      "id": "ui.login.username",
+      "pattern": "Username",
+      "file": "index-DTKnr6h1.js",
+      "line": 43748,
+      "excerpt": "          P.jsx(Pn, { children: \"Username\" }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43748"
+    },
+    "ui.login.password": {
+      "id": "ui.login.password",
+      "pattern": "\"Password\"",
+      "file": "index-DTKnr6h1.js",
+      "line": 43760,
+      "excerpt": "          P.jsx(Pn, { children: \"Password\" }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43760"
+    },
+    "ui.login.submit": {
+      "id": "ui.login.submit",
+      "pattern": "\"Log in\"",
+      "file": "index-DTKnr6h1.js",
+      "line": 43774,
+      "excerpt": "      P.jsx(yi, { onClick: o, sx: { mt: 1 }, children: \"Log in\" }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43774"
+    },
+    "ui.nav.bots": {
+      "id": "ui.nav.bots",
+      "pattern": "\"Bots\"",
+      "file": "index-DTKnr6h1.js",
+      "line": 37537,
+      "excerpt": "        P.jsx(Pv, { href: Js(\"bot\"), icon: P.jsx(tG, {}), size: c, onClick: e, children: \"Bots\" }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:37537"
+    },
+    "ui.nav.strategies": {
+      "id": "ui.nav.strategies",
+      "pattern": "\"Strategies\"",
+      "file": "index-DTKnr6h1.js",
+      "line": 37538,
+      "excerpt": "        P.jsx(Pv, { href: Js(\"strategies\"), icon: P.jsx(Fpe, {}), size: c, onClick: e, children: \"Strategies\" }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:37538"
+    },
+    "ui.nav.accounts": {
+      "id": "ui.nav.accounts",
+      "pattern": "Exchange Accounts",
+      "file": "index-DTKnr6h1.js",
+      "line": 37539,
+      "excerpt": "        P.jsx(Pv, { href: Js(\"accounts\"), icon: P.jsx(qpe, {}), size: c, onClick: e, children: \"Exchange Accounts\" }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:37539"
+    },
+    "ui.nav.settings": {
+      "id": "ui.nav.settings",
+      "pattern": "\"Settings\"",
+      "file": "index-DTKnr6h1.js",
+      "line": 37509,
+      "excerpt": "    \"Settings\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:37509"
+    },
+    "ui.settings.title": {
+      "id": "ui.settings.title",
+      "pattern": "App settings",
+      "file": "index-DTKnr6h1.js",
+      "line": 43705,
+      "excerpt": "      children: [P.jsx(Ct, { level: \"h3\", children: \"App settings\" }), P.jsx(rwe, {}), P.jsx(iwe, {}), P.jsx(nwe, {})],",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43705"
+    },
+    "ui.msg.bot_created": {
+      "id": "ui.msg.bot_created",
+      "pattern": "Bot created successfully",
+      "file": "index-DTKnr6h1.js",
+      "line": 237609,
+      "excerpt": "          c(\"Bot created successfully\"),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:237609"
+    },
+    "ui.msg.bot_updated": {
+      "id": "ui.msg.bot_updated",
+      "pattern": "Bot updated successfully",
+      "file": "index-DTKnr6h1.js",
+      "line": 249572,
+      "excerpt": "          a(\"Bot updated successfully\"),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249572"
+    },
+    "ui.msg.no_logs": {
+      "id": "ui.msg.no_logs",
+      "pattern": "No logs yet",
+      "file": "index-DTKnr6h1.js",
+      "line": 47466,
+      "excerpt": "          children: \"No logs yet\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47466"
+    },
+    "ui.msg.account_created": {
+      "id": "ui.msg.account_created",
+      "pattern": "Account created",
+      "file": "index-DTKnr6h1.js",
+      "line": 46816,
+      "excerpt": "              s(), t(), i(\"Account created\");",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:46816"
+    },
+    "ui.msg.account_checked": {
+      "id": "ui.msg.account_checked",
+      "pattern": "Account checked",
+      "file": "index-DTKnr6h1.js",
+      "line": 44775,
+      "excerpt": "            ? e(\"Account checked. Credentials are valid.\")",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:44775"
+    },
+    "ui.msg.add_exchange": {
+      "id": "ui.msg.add_exchange",
+      "pattern": "Add exchange account",
+      "file": "index-DTKnr6h1.js",
+      "line": 47349,
+      "excerpt": "            children: \"Add exchange account\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47349"
+    },
+    "ui.msg.bot_settings": {
+      "id": "ui.msg.bot_settings",
+      "pattern": "Bot settings",
+      "file": "index-DTKnr6h1.js",
+      "line": 243590,
+      "excerpt": "            P.jsx(Ct, { level: \"h2\", sx: { mb: 1 }, children: \"Bot settings\" }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:243590"
+    },
+    "ui.msg.create": {
+      "id": "ui.msg.create",
+      "pattern": "children: \"Create\"",
+      "file": "index-DTKnr6h1.js",
+      "line": 46791,
+      "excerpt": "                        children: \"Create\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:46791"
+    },
+    "ui.strategy.grid": {
+      "id": "ui.strategy.grid",
+      "pattern": "Grid Bot",
+      "file": "index-DTKnr6h1.js",
+      "line": 43593,
+      "excerpt": "  return c.displayName === \"Grid Bot\" || c.displayName === \"DCA Bot\";",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43593"
+    },
+    "ui.strategy.dca": {
+      "id": "ui.strategy.dca",
+      "pattern": "DCA Bot",
+      "file": "index-DTKnr6h1.js",
+      "line": 43593,
+      "excerpt": "  return c.displayName === \"Grid Bot\" || c.displayName === \"DCA Bot\";",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43593"
+    },
+    "form.default.symbol": {
+      "id": "form.default.symbol",
+      "pattern": "OKX:BTC/USDT",
+      "file": "index-DTKnr6h1.js",
+      "line": 21104,
+      "excerpt": "    symbolId: \"OKX:BTC/USDT\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21104"
+    },
+    "form.default.exchange": {
+      "id": "form.default.exchange",
+      "pattern": "exchangeCode:\\s*\"OKX\"|\"OKX\"",
+      "file": "index-DTKnr6h1.js",
+      "line": 18515,
+      "excerpt": "    OKX: \"OKX\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:18515"
+    },
+    "form.slice.gridBotForm": {
+      "id": "form.slice.gridBotForm",
+      "pattern": "gridBotForm",
+      "file": "index-DTKnr6h1.js",
+      "line": 21114,
+      "excerpt": "    name: \"gridBotForm\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21114"
+    },
+    "form.slice.dcaBotForm": {
+      "id": "form.slice.dcaBotForm",
+      "pattern": "dcaBotForm",
+      "file": "index-DTKnr6h1.js",
+      "line": 21677,
+      "excerpt": "    name: \"dcaBotForm\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21677"
+    },
+    "form.field.highPrice": {
+      "id": "form.field.highPrice",
+      "pattern": "highPrice",
+      "file": "index-DTKnr6h1.js",
+      "line": 21106,
+      "excerpt": "    highPrice: 0,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21106"
+    },
+    "form.field.lowPrice": {
+      "id": "form.field.lowPrice",
+      "pattern": "lowPrice",
+      "file": "index-DTKnr6h1.js",
+      "line": 21107,
+      "excerpt": "    lowPrice: 0,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21107"
+    },
+    "form.field.gridLines": {
+      "id": "form.field.gridLines",
+      "pattern": "gridLines",
+      "file": "index-DTKnr6h1.js",
+      "line": 21094,
+      "excerpt": "Tu({ gridLines: rB(Ise) });",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21094"
+    },
+    "form.field.quantityPerGrid": {
+      "id": "form.field.quantityPerGrid",
+      "pattern": "quantityPerGrid",
+      "file": "index-DTKnr6h1.js",
+      "line": 21109,
+      "excerpt": "    quantityPerGrid: `${_se}`,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21109"
+    },
+    "form.field.gridLinesNumber": {
+      "id": "form.field.gridLinesNumber",
+      "pattern": "gridLinesNumber",
+      "file": "index-DTKnr6h1.js",
+      "line": 21108,
+      "excerpt": "    gridLinesNumber: Cse,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21108"
+    },
+    "form.field.safetyOrders": {
+      "id": "form.field.safetyOrders",
+      "pattern": "safetyOrders",
+      "file": "index-DTKnr6h1.js",
+      "line": 21076,
+      "excerpt": "  safetyOrders: rB(",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21076"
+    },
+    "form.field.takeProfitPercent": {
+      "id": "form.field.takeProfitPercent",
+      "pattern": "takeProfitPercent",
+      "file": "index-DTKnr6h1.js",
+      "line": 21663,
+      "excerpt": "    takeProfitPercent: _H,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21663"
+    },
+    "form.field.stopLossPercent": {
+      "id": "form.field.stopLossPercent",
+      "pattern": "stopLossPercent",
+      "file": "index-DTKnr6h1.js",
+      "line": 21665,
+      "excerpt": "    stopLossPercent: MH,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21665"
+    },
+    "form.field.stopLossEnabled": {
+      "id": "form.field.stopLossEnabled",
+      "pattern": "stopLossEnabled",
+      "file": "index-DTKnr6h1.js",
+      "line": 21664,
+      "excerpt": "    stopLossEnabled: !1,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21664"
+    },
+    "form.field.botName": {
+      "id": "form.field.botName",
+      "pattern": "botName",
+      "file": "index-DTKnr6h1.js",
+      "line": 21101,
+      "excerpt": "    botName: \"\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21101"
+    },
+    "form.field.exchangeAccountId": {
+      "id": "form.field.exchangeAccountId",
+      "pattern": "exchangeAccountId",
+      "file": "index-DTKnr6h1.js",
+      "line": 21102,
+      "excerpt": "    exchangeAccountId: 0,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21102"
+    },
+    "form.field.symbolId": {
+      "id": "form.field.symbolId",
+      "pattern": "symbolId",
+      "file": "index-DTKnr6h1.js",
+      "line": 21104,
+      "excerpt": "    symbolId: \"OKX:BTC/USDT\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21104"
+    },
+    "form.field.barSize": {
+      "id": "form.field.barSize",
+      "pattern": "barSize",
+      "file": "index-DTKnr6h1.js",
+      "line": 21111,
+      "excerpt": "    barSize: B0.ONE_DAY,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:21111"
+    },
+    "route.file.layout": {
+      "id": "route.file.layout",
+      "pattern": "\"/_layout\"",
+      "file": "index-DTKnr6h1.js",
+      "line": 37878,
+      "excerpt": "  nme = ea(\"/_layout\")({ component: rme });",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:37878"
+    },
+    "route.file.bot_edit": {
+      "id": "route.file.bot_edit",
+      "pattern": "/_layout/dashboard/bot/edit/\\$id",
+      "file": "index-DTKnr6h1.js",
+      "line": 249634,
+      "excerpt": "const Yz = ea(\"/_layout/dashboard/bot/edit/$id\")({ component: gVe }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249634"
+    },
+    "route.file.grid_create": {
+      "id": "route.file.grid_create",
+      "pattern": "/_layout/dashboard/grid-bot/create",
+      "file": "index-DTKnr6h1.js",
+      "line": 47455,
+      "excerpt": "  Qke = ea(\"/_layout/dashboard/grid-bot/create\")({ component: Xke });",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47455"
+    },
+    "route.file.grid_edit": {
+      "id": "route.file.grid_edit",
+      "pattern": "/_layout/dashboard/grid-bot/edit/\\$id",
+      "file": "index-DTKnr6h1.js",
+      "line": 249552,
+      "excerpt": "  lVe = ea(\"/_layout/dashboard/grid-bot/edit/$id\")({ component: uVe }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249552"
+    },
+    "route.file.dca_create": {
+      "id": "route.file.dca_create",
+      "pattern": "/_layout/dashboard/dca-bot/create",
+      "file": "index-DTKnr6h1.js",
+      "line": 243636,
+      "excerpt": "const m5e = ea(\"/_layout/dashboard/dca-bot/create\")({ component: p5e }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:243636"
+    },
+    "route.file.dca_edit": {
+      "id": "route.file.dca_edit",
+      "pattern": "/_layout/dashboard/dca-bot/edit/\\$id",
+      "file": "index-DTKnr6h1.js",
+      "line": 249554,
+      "excerpt": "  fVe = ea(\"/_layout/dashboard/dca-bot/edit/$id\")({ component: hVe });",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249554"
+    },
+    "route.file.login": {
+      "id": "route.file.login",
+      "pattern": "/_layout/dashboard/login",
+      "file": "index-DTKnr6h1.js",
+      "line": 43778,
+      "excerpt": "const cwe = ea(\"/_layout/dashboard/login\")({ component: dwe }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43778"
+    },
+    "route.file.accounts": {
+      "id": "route.file.accounts",
+      "pattern": "/_layout/dashboard/accounts",
+      "file": "index-DTKnr6h1.js",
+      "line": 47013,
+      "excerpt": "const Ake = ea(\"/_layout/dashboard/accounts\")({ component: Mke }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47013"
+    },
+    "route.file.settings": {
+      "id": "route.file.settings",
+      "pattern": "/_layout/dashboard/settings",
+      "file": "index-DTKnr6h1.js",
+      "line": 43709,
+      "excerpt": "const owe = ea(\"/_layout/dashboard/settings\")({ component: awe });",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43709"
+    },
+    "route.file.strategies": {
+      "id": "route.file.strategies",
+      "pattern": "/_layout/dashboard/strategies",
+      "file": "index-DTKnr6h1.js",
+      "line": 43673,
+      "excerpt": "const swe = ea(\"/_layout/dashboard/strategies\")({ component: twe });",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43673"
+    },
+    "route.file.bot_index": {
+      "id": "route.file.bot_index",
+      "pattern": "/_layout/dashboard/bot/",
+      "file": "index-DTKnr6h1.js",
+      "line": 47368,
+      "excerpt": "const zke = ea(\"/_layout/dashboard/bot/\")({ component: jke }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47368"
+    },
+    "route.file.bot_id": {
+      "id": "route.file.bot_id",
+      "pattern": "/_layout/dashboard/bot/\\$id",
+      "file": "index-DTKnr6h1.js",
+      "line": 249545,
+      "excerpt": "const Qz = ea(\"/_layout/dashboard/bot/$id\")({",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249545"
+    },
+    "route.file.bot_create": {
+      "id": "route.file.bot_create",
+      "pattern": "/_layout/dashboard/bot/create",
+      "file": "index-DTKnr6h1.js",
+      "line": 249353,
+      "excerpt": "const Xz = ea(\"/_layout/dashboard/bot/create\")({",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249353"
+    },
+    "route.file.grid_id": {
+      "id": "route.file.grid_id",
+      "pattern": "/_layout/dashboard/grid-bot/\\$id",
+      "file": "index-DTKnr6h1.js",
+      "line": 237281,
+      "excerpt": "const J7 = ea(\"/_layout/dashboard/grid-bot/$id\")({",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:237281"
+    },
+    "route.file.dca_id": {
+      "id": "route.file.dca_id",
+      "pattern": "/_layout/dashboard/dca-bot/\\$id",
+      "file": "index-DTKnr6h1.js",
+      "line": 243764,
+      "excerpt": "const Dz = ea(\"/_layout/dashboard/dca-bot/$id\")({",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:243764"
+    },
+    "route.path.bot_edit": {
+      "id": "route.path.bot_edit",
+      "pattern": "/dashboard/bot/edit/\\$id",
+      "file": "index-DTKnr6h1.js",
+      "line": 249634,
+      "excerpt": "const Yz = ea(\"/_layout/dashboard/bot/edit/$id\")({ component: gVe }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249634"
+    },
+    "route.path.grid_create": {
+      "id": "route.path.grid_create",
+      "pattern": "/dashboard/grid-bot/create",
+      "file": "index-DTKnr6h1.js",
+      "line": 32360,
+      "excerpt": "  \"grid-bot/create\": \"/dashboard/grid-bot/create\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:32360"
+    },
+    "route.path.grid_edit": {
+      "id": "route.path.grid_edit",
+      "pattern": "/dashboard/grid-bot/edit/\\$id",
+      "file": "index-DTKnr6h1.js",
+      "line": 249552,
+      "excerpt": "  lVe = ea(\"/_layout/dashboard/grid-bot/edit/$id\")({ component: uVe }),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249552"
+    },
+    "route.path.dca_create": {
+      "id": "route.path.dca_create",
+      "pattern": "/dashboard/dca-bot/create",
+      "file": "index-DTKnr6h1.js",
+      "line": 32363,
+      "excerpt": "  \"dca-bot/create\": \"/dashboard/dca-bot/create\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:32363"
+    },
+    "route.path.login": {
+      "id": "route.path.login",
+      "pattern": "/dashboard/login",
+      "file": "index-DTKnr6h1.js",
+      "line": 32349,
+      "excerpt": "  login: \"/dashboard/login\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:32349"
+    },
+    "route.key.LayoutDashboardBotEditIdRoute": {
+      "id": "route.key.LayoutDashboardBotEditIdRoute",
+      "pattern": "LayoutDashboardBotEditIdRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249671,
+      "excerpt": "    LayoutDashboardBotEditIdRoute: AVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249671"
+    },
+    "route.key.LayoutDashboardGridBotCreateRoute": {
+      "id": "route.key.LayoutDashboardGridBotCreateRoute",
+      "pattern": "LayoutDashboardGridBotCreateRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249669,
+      "excerpt": "    LayoutDashboardGridBotCreateRoute: TVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249669"
+    },
+    "route.key.LayoutDashboardDcaBotEditIdRoute": {
+      "id": "route.key.LayoutDashboardDcaBotEditIdRoute",
+      "pattern": "LayoutDashboardDcaBotEditIdRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249672,
+      "excerpt": "    LayoutDashboardDcaBotEditIdRoute: MVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249672"
+    },
+    "route.key.LayoutDashboardAccountsRoute": {
+      "id": "route.key.LayoutDashboardAccountsRoute",
+      "pattern": "LayoutDashboardAccountsRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249660,
+      "excerpt": "    LayoutDashboardAccountsRoute: SVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249660"
+    },
+    "route.key.LayoutDashboardLoginRoute": {
+      "id": "route.key.LayoutDashboardLoginRoute",
+      "pattern": "LayoutDashboardLoginRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249661,
+      "excerpt": "    LayoutDashboardLoginRoute: kVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249661"
+    },
+    "route.key.LayoutDashboardSettingsRoute": {
+      "id": "route.key.LayoutDashboardSettingsRoute",
+      "pattern": "LayoutDashboardSettingsRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249662,
+      "excerpt": "    LayoutDashboardSettingsRoute: bVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249662"
+    },
+    "route.key.LayoutDashboardStrategiesRoute": {
+      "id": "route.key.LayoutDashboardStrategiesRoute",
+      "pattern": "LayoutDashboardStrategiesRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249663,
+      "excerpt": "    LayoutDashboardStrategiesRoute: wVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249663"
+    },
+    "route.key.LayoutDashboardBotIndexRoute": {
+      "id": "route.key.LayoutDashboardBotIndexRoute",
+      "pattern": "LayoutDashboardBotIndexRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249670,
+      "excerpt": "    LayoutDashboardBotIndexRoute: vVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249670"
+    },
+    "route.key.LayoutDashboardBotIdRoute": {
+      "id": "route.key.LayoutDashboardBotIdRoute",
+      "pattern": "LayoutDashboardBotIdRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249664,
+      "excerpt": "    LayoutDashboardBotIdRoute: CVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249664"
+    },
+    "route.key.LayoutDashboardBotCreateRoute": {
+      "id": "route.key.LayoutDashboardBotCreateRoute",
+      "pattern": "LayoutDashboardBotCreateRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249665,
+      "excerpt": "    LayoutDashboardBotCreateRoute: IVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249665"
+    },
+    "route.key.LayoutDashboardGridBotIdRoute": {
+      "id": "route.key.LayoutDashboardGridBotIdRoute",
+      "pattern": "LayoutDashboardGridBotIdRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249668,
+      "excerpt": "    LayoutDashboardGridBotIdRoute: OVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249668"
+    },
+    "route.key.LayoutDashboardGridBotEditIdRoute": {
+      "id": "route.key.LayoutDashboardGridBotEditIdRoute",
+      "pattern": "LayoutDashboardGridBotEditIdRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249673,
+      "excerpt": "    LayoutDashboardGridBotEditIdRoute: _Ve,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249673"
+    },
+    "route.key.LayoutDashboardDcaBotIdRoute": {
+      "id": "route.key.LayoutDashboardDcaBotIdRoute",
+      "pattern": "LayoutDashboardDcaBotIdRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249666,
+      "excerpt": "    LayoutDashboardDcaBotIdRoute: PVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249666"
+    },
+    "route.key.LayoutDashboardDcaBotCreateRoute": {
+      "id": "route.key.LayoutDashboardDcaBotCreateRoute",
+      "pattern": "LayoutDashboardDcaBotCreateRoute",
+      "file": "index-DTKnr6h1.js",
+      "line": 249667,
+      "excerpt": "    LayoutDashboardDcaBotCreateRoute: xVe,",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249667"
+    },
+    "rpc.public.healhcheck": {
+      "id": "rpc.public.healhcheck",
+      "pattern": "healhcheck",
+      "file": "index-DTKnr6h1.js",
+      "line": 36809,
+      "excerpt": "      } = mB(e.public.healhcheck.queryOptions(void 0, { retry: !1, refetchOnWindowFocus: !1 }));",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:36809"
+    },
+    "rpc.bot.list": {
+      "id": "rpc.bot.list",
+      "pattern": "bot\\.list",
+      "file": "index-DTKnr6h1.js",
+      "line": 47025,
+      "excerpt": "          r.invalidateQueries(n.bot.list.queryOptions()),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47025"
+    },
+    "rpc.bot.getOne": {
+      "id": "rpc.bot.getOne",
+      "pattern": "bot\\.getOne",
+      "file": "index-DTKnr6h1.js",
+      "line": 47024,
+      "excerpt": "          r.invalidateQueries(n.bot.getOne.queryOptions(t.id)),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47024"
+    },
+    "rpc.bot.start": {
+      "id": "rpc.bot.start",
+      "pattern": "bot\\.start",
+      "file": "index-DTKnr6h1.js",
+      "line": 47030,
+      "excerpt": "        n.bot.start.mutationOptions({",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47030"
+    },
+    "rpc.bot.stop": {
+      "id": "rpc.bot.stop",
+      "pattern": "bot\\.stop",
+      "file": "index-DTKnr6h1.js",
+      "line": 47037,
+      "excerpt": "        n.bot.stop.mutationOptions({",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47037"
+    },
+    "rpc.bot.getStrategies": {
+      "id": "rpc.bot.getStrategies",
+      "pattern": "bot\\.getStrategies",
+      "file": "index-DTKnr6h1.js",
+      "line": 43654,
+      "excerpt": "    { data: t } = Rs(c.bot.getStrategies.queryOptions()),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43654"
+    },
+    "rpc.gridBot.create": {
+      "id": "rpc.gridBot.create",
+      "pattern": "gridBot\\.create",
+      "file": "page-B7EduWBL.js",
+      "line": 66,
+      "excerpt": "        n.gridBot.create.mutationOptions({",
+      "status": "ok",
+      "ref": "page-B7EduWBL.js:66"
+    },
+    "rpc.gridBot.update": {
+      "id": "rpc.gridBot.update",
+      "pattern": "gridBot\\.update",
+      "file": "page-Dps6Us_X.js",
+      "line": 72,
+      "excerpt": "        e.gridBot.update.mutationOptions({",
+      "status": "ok",
+      "ref": "page-Dps6Us_X.js:72"
+    },
+    "rpc.gridBot.getOne": {
+      "id": "rpc.gridBot.getOne",
+      "pattern": "gridBot\\.getOne",
+      "file": "index-DTKnr6h1.js",
+      "line": 47023,
+      "excerpt": "        r.invalidateQueries(n.gridBot.getOne.queryOptions(t.id)),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47023"
+    },
+    "rpc.gridBot.formOptions": {
+      "id": "rpc.gridBot.formOptions",
+      "pattern": "gridBot\\.formOptions",
+      "file": "page-B7EduWBL.js",
+      "line": 102,
+      "excerpt": "      o.gridBot.formOptions.queryOptions({ symbolId: n, isDemoAccount: c }, { refetchOnWindowFocus: !1 }),",
+      "status": "ok",
+      "ref": "page-B7EduWBL.js:102"
+    },
+    "rpc.dcaBot.create": {
+      "id": "rpc.dcaBot.create",
+      "pattern": "dcaBot\\.create",
+      "file": "index-DTKnr6h1.js",
+      "line": 237607,
+      "excerpt": "      s.dcaBot.create.mutationOptions({",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:237607"
+    },
+    "rpc.dcaBot.getOne": {
+      "id": "rpc.dcaBot.getOne",
+      "pattern": "dcaBot\\.getOne",
+      "file": "index-DTKnr6h1.js",
+      "line": 47751,
+      "excerpt": "          i.invalidateQueries(s.dcaBot.getOne.queryOptions(e.id)),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:47751"
+    },
+    "rpc.dcaBot.update": {
+      "id": "rpc.dcaBot.update",
+      "pattern": "dcaBot\\.update",
+      "file": "page-CAOt1VfL.js",
+      "line": 74,
+      "excerpt": "      t.dcaBot.update.mutationOptions({",
+      "status": "ok",
+      "ref": "page-CAOt1VfL.js:74"
+    },
+    "rpc.exchangeAccount.list": {
+      "id": "rpc.exchangeAccount.list",
+      "pattern": "exchangeAccount\\.list",
+      "file": "index-DTKnr6h1.js",
+      "line": 43653,
+      "excerpt": "    { data: e } = Rs(c.exchangeAccount.list.queryOptions()),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:43653"
+    },
+    "rpc.exchangeAccount.create": {
+      "id": "rpc.exchangeAccount.create",
+      "pattern": "exchangeAccount\\.create",
+      "file": "index-DTKnr6h1.js",
+      "line": 46722,
+      "excerpt": "      } = Xo(i.exchangeAccount.create.mutationOptions());",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:46722"
+    },
+    "rpc.symbol.list": {
+      "id": "rpc.symbol.list",
+      "pattern": "symbol\\.list",
+      "file": "index-DTKnr6h1.js",
+      "line": 236447,
+      "excerpt": "      { data: d } = Rs(r.symbol.list.queryOptions({ exchangeCode: c, isDemoAccount: e }, { initialData: i }));",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:236447"
+    },
+    "rpc.symbol.getOne": {
+      "id": "rpc.symbol.getOne",
+      "pattern": "symbol\\.getOne",
+      "file": "index-DTKnr6h1.js",
+      "line": 235549,
+      "excerpt": "      { data: u } = Rs(d.symbol.getOne.queryOptions({ symbolId: c, isDemoAccount: e })),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:235549"
+    },
+    "rpc.symbol.price": {
+      "id": "rpc.symbol.price",
+      "pattern": "symbol\\.price",
+      "file": "index-DTKnr6h1.js",
+      "line": 237714,
+      "excerpt": "      } = Rs(e.symbol.price.queryOptions({ symbolId: i.symbolId, isDemoAccount: s.isDemoAccount })),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:237714"
+    },
+    "tool.vite.mapDeps": {
+      "id": "tool.vite.mapDeps",
+      "pattern": "__vite__mapDeps",
+      "file": "index-DTKnr6h1.js",
+      "line": 1,
+      "excerpt": "const __vite__mapDeps = (",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:1"
+    },
+    "tool.react.createRoot": {
+      "id": "tool.react.createRoot",
+      "pattern": "createRoot",
+      "file": "index-DTKnr6h1.js",
+      "line": 8037,
+      "excerpt": "    (Eo.createRoot = function (w, S) {",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:8037"
+    },
+    "tool.react.StrictMode": {
+      "id": "tool.react.StrictMode",
+      "pattern": "StrictMode",
+      "file": "index-DTKnr6h1.js",
+      "line": 351,
+      "excerpt": "    (Zs.StrictMode = s),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:351"
+    },
+    "tool.chunk.grid_create": {
+      "id": "tool.chunk.grid_create",
+      "pattern": "page-B7EduWBL",
+      "file": "index-DTKnr6h1.js",
+      "line": 6,
+      "excerpt": "      \"assets/page-B7EduWBL.js\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:6"
+    },
+    "tool.chunk.simple_grid": {
+      "id": "tool.chunk.simple_grid",
+      "pattern": "SimpleGridForm",
+      "file": "index-DTKnr6h1.js",
+      "line": 7,
+      "excerpt": "      \"assets/SimpleGridForm-BUsQPU4Z.js\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:7"
+    },
+    "tool.chunk.grid_edit": {
+      "id": "tool.chunk.grid_edit",
+      "pattern": "page-Dps6Us_X",
+      "file": "index-DTKnr6h1.js",
+      "line": 14,
+      "excerpt": "      \"assets/page-Dps6Us_X.js\",",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:14"
+    },
+    "tool.chunk.dca_edit": {
+      "id": "tool.chunk.dca_edit",
+      "pattern": "page-CAOt1VfL",
+      "file": "index-DTKnr6h1.js",
+      "line": 249553,
+      "excerpt": "  hVe = nR(() => gu(() => import(\"./page-CAOt1VfL.js\"), []), P.jsx(iR, {})),",
+      "status": "ok",
+      "ref": "index-DTKnr6h1.js:249553"
+    }
+  },
+  "inventories": {
+    "routePaths": [
+      "/_layout/dashboard/accounts",
+      "/_layout/dashboard/bot/",
+      "/_layout/dashboard/bot/$id",
+      "/_layout/dashboard/bot/create",
+      "/_layout/dashboard/bot/edit/$id",
+      "/_layout/dashboard/dca-bot/$id",
+      "/_layout/dashboard/dca-bot/create",
+      "/_layout/dashboard/dca-bot/edit/$id",
+      "/_layout/dashboard/grid-bot/$id",
+      "/_layout/dashboard/grid-bot/create",
+      "/_layout/dashboard/grid-bot/edit/$id",
+      "/_layout/dashboard/login",
+      "/_layout/dashboard/settings",
+      "/_layout/dashboard/strategies",
+      "/dashboard/accounts",
+      "/dashboard/bot",
+      "/dashboard/bot/",
+      "/dashboard/bot/$id",
+      "/dashboard/bot/create",
+      "/dashboard/bot/edit/$id",
+      "/dashboard/dca-bot/$id",
+      "/dashboard/dca-bot/create",
+      "/dashboard/dca-bot/edit/$id",
+      "/dashboard/grid-bot/$id",
+      "/dashboard/grid-bot/create",
+      "/dashboard/grid-bot/edit/$id",
+      "/dashboard/login",
+      "/dashboard/settings",
+      "/dashboard/strategies"
+    ],
+    "layoutKeys": [
+      "LayoutDashboardAccountsRoute",
+      "LayoutDashboardBotCreateRoute",
+      "LayoutDashboardBotEditIdRoute",
+      "LayoutDashboardBotIdRoute",
+      "LayoutDashboardBotIndexRoute",
+      "LayoutDashboardDcaBotCreateRoute",
+      "LayoutDashboardDcaBotEditIdRoute",
+      "LayoutDashboardDcaBotIdRoute",
+      "LayoutDashboardGridBotCreateRoute",
+      "LayoutDashboardGridBotEditIdRoute",
+      "LayoutDashboardGridBotIdRoute",
+      "LayoutDashboardLoginRoute",
+      "LayoutDashboardSettingsRoute",
+      "LayoutDashboardStrategiesRoute"
+    ],
+    "formKeys": [
+      "barSize",
+      "botName",
+      "entryConditions",
+      "entryOrderQuantity",
+      "entryOrderType",
+      "exchangeAccountId",
+      "exchangeCode",
+      "gridLines",
+      "gridLinesNumber",
+      "highPrice",
+      "isDemoAccount",
+      "lowPrice",
+      "quantityPerGrid",
+      "safetyOrderFormType",
+      "safetyOrders",
+      "stopLossEnabled",
+      "stopLossPercent",
+      "symbolId",
+      "takeProfitPercent"
+    ],
+    "rpcProcs": [
+      "bot.activeSmartTrades",
+      "bot.completedSmartTrades",
+      "bot.create",
+      "bot.delete",
+      "bot.getBotLogs",
+      "bot.getOne",
+      "bot.getStrategies",
+      "bot.list",
+      "bot.openSmartTrades",
+      "bot.start",
+      "bot.stop",
+      "bot.update",
+      "candles.list",
+      "candles.update",
+      "dcaBot.create",
+      "dcaBot.getOne",
+      "dcaBot.getTrades",
+      "exchangeAccount.check",
+      "exchangeAccount.create",
+      "exchangeAccount.delete",
+      "exchangeAccount.getOne",
+      "exchangeAccount.list",
+      "exchangeAccount.update",
+      "gridBot.getOne",
+      "gridBot.list",
+      "order.amend",
+      "order.cancel",
+      "order.cancelReplace",
+      "order.closedOrders",
+      "order.create",
+      "order.deal",
+      "order.exchangeOrderId",
+      "order.id",
+      "order.infiniteOrders",
+      "order.modify",
+      "order.openOrders",
+      "order.place",
+      "order.status",
+      "order.subscribe",
+      "order.test",
+      "order.update",
+      "public.bookTicker",
+      "public.deals",
+      "public.healhcheck",
+      "public.increase",
+      "public.json",
+      "public.kline",
+      "public.miniTicker",
+      "public.miniTickers",
+      "public.sandbox",
+      "smartTrade.infiniteList",
+      "smartTrade.list",
+      "symbol.getOne",
+      "symbol.list",
+      "symbol.price"
+    ]
+  },
+  "bootstrap": {
+    "startLine": 249641,
+    "endLine": 249696,
+    "lines": [
+      "  vVe = zke.update({ id: \"/dashboard/bot/\", path: \"/dashboard/bot/\", getParentRoute: () => yo }),",
+      "  TVe = Qke.update({ id: \"/dashboard/grid-bot/create\", path: \"/dashboard/grid-bot/create\", getParentRoute: () => yo }),",
+      "  OVe = J7.update({ id: \"/dashboard/grid-bot/$id\", path: \"/dashboard/grid-bot/$id\", getParentRoute: () => yo }),",
+      "  xVe = m5e.update({ id: \"/dashboard/dca-bot/create\", path: \"/dashboard/dca-bot/create\", getParentRoute: () => yo }),",
+      "  PVe = Dz.update({ id: \"/dashboard/dca-bot/$id\", path: \"/dashboard/dca-bot/$id\", getParentRoute: () => yo }),",
+      "  IVe = Xz.update({ id: \"/dashboard/bot/create\", path: \"/dashboard/bot/create\", getParentRoute: () => yo }),",
+      "  CVe = Qz.update({ id: \"/dashboard/bot/$id\", path: \"/dashboard/bot/$id\", getParentRoute: () => yo }),",
+      "  _Ve = lVe.update({",
+      "    id: \"/dashboard/grid-bot/edit/$id\",",
+      "    path: \"/dashboard/grid-bot/edit/$id\",",
+      "    getParentRoute: () => yo,",
+      "  }),",
+      "  MVe = fVe.update({",
+      "    id: \"/dashboard/dca-bot/edit/$id\",",
+      "    path: \"/dashboard/dca-bot/edit/$id\",",
+      "    getParentRoute: () => yo,",
+      "  }),",
+      "  AVe = Yz.update({ id: \"/dashboard/bot/edit/$id\", path: \"/dashboard/bot/edit/$id\", getParentRoute: () => yo }),",
+      "  LVe = {",
+      "    LayoutDashboardAccountsRoute: SVe,",
+      "    LayoutDashboardLoginRoute: kVe,",
+      "    LayoutDashboardSettingsRoute: bVe,",
+      "    LayoutDashboardStrategiesRoute: wVe,",
+      "    LayoutDashboardBotIdRoute: CVe,",
+      "    LayoutDashboardBotCreateRoute: IVe,",
+      "    LayoutDashboardDcaBotIdRoute: PVe,",
+      "    LayoutDashboardDcaBotCreateRoute: xVe,",
+      "    LayoutDashboardGridBotIdRoute: OVe,",
+      "    LayoutDashboardGridBotCreateRoute: TVe,",
+      "    LayoutDashboardBotIndexRoute: vVe,",
+      "    LayoutDashboardBotEditIdRoute: AVe,",
+      "    LayoutDashboardDcaBotEditIdRoute: MVe,",
+      "    LayoutDashboardGridBotEditIdRoute: _Ve,",
+      "  },",
+      "  BVe = yo._addFileChildren(LVe),",
+      "  RVe = { IndexRoute: yVe, LayoutRoute: BVe },",
+      "  NVe = KB._addFileChildren(RVe)._addFileTypes(),",
+      "  EVe = NK(),",
+      "  DVe = XX({ routeTree: NVe, history: EVe }),",
+      "  W3 = document.getElementById(\"root\");",
+      "W3.innerHTML || MK.createRoot(W3).render(P.jsx(V.StrictMode, { children: P.jsx(ZX, { router: DVe }) }));",
+      "export {",
+      "  nt as $,",
+      "  aFe as A,",
+      "  yi as B,",
+      "  zI as C,",
+      "  Vu as D,",
+      "  qT as E,",
+      "  BI as F,",
+      "  zt as G,",
+      "  NI as H,",
+      "  RI as I,",
+      "  VG as J,",
+      "  iFe as K,",
+      "  oFe as L,",
+      "  Mu as M,"
+    ]
+  }
+}

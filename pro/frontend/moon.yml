@@ -1,0 +1,30 @@
+# moon project: AgentTrader pro UI (native)
+$schema: "https://moonrepo.dev/schemas/project.json"
+id: frontend
+language: typescript
+tasks:
+  build:
+    command: npm
+    args: run build
+    inputs:
+      - src/**/*
+      - index.html
+      - package.json
+      - vite.config.ts
+      - tsconfig.json
+      - public/**/*
+    outputs:
+      - dist
+  verify:
+    command: npm
+    args: run verify
+  check:
+    command: npm
+    args: run check
+  dev:
+    command: npm
+    args: run dev
+    local: true
+  typecheck:
+    command: npm
+    args: run typecheck

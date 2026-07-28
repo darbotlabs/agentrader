@@ -1,0 +1,709 @@
+{
+  "gridBotForm": [
+    {
+      "line": 21114,
+      "excerpt": "    name: \"gridBotForm\","
+    },
+    {
+      "line": 21841,
+      "excerpt": "  Cie = fH({ reducer: { dcaBotForm: RH.reducer, gridBotForm: OH.reducer }, devTools: !0 }),"
+    }
+  ],
+  "api_trpc": [
+    {
+      "line": 32402,
+      "excerpt": "              url: `${w8()}/api/trpc`,"
+    }
+  ],
+  "create_button": [
+    {
+      "line": 46791,
+      "excerpt": "                        children: \"Create\","
+    }
+  ],
+  "log_in": [
+    {
+      "line": 43774,
+      "excerpt": "      P.jsx(yi, { onClick: o, sx: { mt: 1 }, children: \"Log in\" }),"
+    }
+  ],
+  "path_grid_create": [
+    {
+      "line": 32360,
+      "excerpt": "  \"grid-bot/create\": \"/dashboard/grid-bot/create\","
+    },
+    {
+      "line": 47455,
+      "excerpt": "  Qke = ea(\"/_layout/dashboard/grid-bot/create\")({ component: Xke });"
+    },
+    {
+      "line": 249642,
+      "excerpt": "  TVe = Qke.update({ id: \"/dashboard/grid-bot/create\", path: \"/dashboard/grid-bot/create\", getParentRoute: () => yo }),"
+    }
+  ],
+  "createFileRoute": [
+    {
+      "line": 12882,
+      "excerpt": "  ? ((globalThis.createFileRoute = ea), (globalThis.createLazyFileRoute = DE))"
+    },
+    {
+      "line": 12883,
+      "excerpt": "  : typeof window < \"u\" && ((window.createFileRoute = ea), (window.createFileRoute = DE));"
+    }
+  ],
+  "grid_bot_display": [
+    {
+      "line": 43593,
+      "excerpt": "  return c.displayName === \"Grid Bot\" || c.displayName === \"DCA Bot\";"
+    },
+    {
+      "line": 43600,
+      "excerpt": "    case \"Grid Bot\":"
+    }
+  ],
+  "validate_search_strategy": [
+    {
+      "line": 9313,
+      "excerpt": "                  B.options.validateSearch && (M = { ...M, ...(L2(B.options.validateSearch, { ...M, ...y }) ?? {}) });"
+    },
+    {
+      "line": 10108,
+      "excerpt": "              const K = L2(h.options.validateSearch, { ...ie }) ?? {};"
+    },
+    {
+      "line": 10345,
+      "excerpt": "        if (s && o.options.validateSearch) {"
+    },
+    {
+      "line": 10349,
+      "excerpt": "              return { ...p, ...(L2(o.options.validateSearch, p) ?? {}) };"
+    },
+    {
+      "line": 249355,
+      "excerpt": "    validateSearch: (c) => ({ strategy: c.strategy || void 0 }),"
+    }
+  ],
+  "advancedForm": [],
+  "simpleForm": [],
+  "bot_updated": [
+    {
+      "line": 249572,
+      "excerpt": "          a(\"Bot updated successfully\"),"
+    }
+  ],
+  "admin_password": [
+    {
+      "line": 25905,
+      "excerpt": "  yB = \"ADMIN_PASSWORD\","
+    }
+  ],
+  "backend_url": [
+    {
+      "line": 36797,
+      "excerpt": "        P.jsx(jm, { children: P.jsxs(tn, { children: [P.jsx(Pn, { children: \"Backend URL\" }), P.jsx(Z8, {})] }) }),"
+    },
+    {
+      "line": 43699,
+      "excerpt": "  rwe = () => P.jsxs(tn, { children: [P.jsx(Pn, { children: \"Backend URL\" }), P.jsx(Z8, {})] });"
+    },
+    {
+      "line": 43736,
+      "excerpt": "          P.jsx(Pn, { children: \"Backend URL\" }),"
+    }
+  ],
+  "safetyOrders": [
+    {
+      "line": 21076,
+      "excerpt": "  safetyOrders: rB("
+    },
+    {
+      "line": 21084,
+      "excerpt": "  ({ sl: c, safetyOrders: e }) => {"
+    },
+    {
+      "line": 21667,
+      "excerpt": "      safetyOrdersCount: Wse,"
+    },
+    {
+      "line": 21668,
+      "excerpt": "      safetyOrdersVolumeScale: jse,"
+    },
+    {
+      "line": 21669,
+      "excerpt": "      safetyOrdersPriceScale: zse,"
+    },
+    {
+      "line": 21670,
+      "excerpt": "      safetyOrdersPriceDeviation: dB,"
+    },
+    {
+      "line": 21672,
+      "excerpt": "    safetyOrders: [],"
+    },
+    {
+      "line": 21750,
+      "excerpt": "        c.simple.safetyOrdersCount = e.payload;"
+    },
+    {
+      "line": 21753,
+      "excerpt": "        c.simple.safetyOrdersCount = e.payload;"
+    },
+    {
+      "line": 21756,
+      "excerpt": "        c.simple.safetyOrdersVolumeScale = e.payload;"
+    },
+    {
+      "line": 21759,
+      "excerpt": "        c.simple.safetyOrdersVolumeScale = e.payload;"
+    },
+    {
+      "line": 21762,
+      "excerpt": "        c.simple.safetyOrdersPriceScale = e.payload;"
+    },
+    {
+      "line": 21765,
+      "excerpt": "        c.simple.safetyOrdersPriceScale = e.payload;"
+    },
+    {
+      "line": 21768,
+      "excerpt": "        c.simple.safetyOrdersPriceDeviation = e.payload;"
+    },
+    {
+      "line": 21771,
+      "excerpt": "        c.simple.safetyOrdersPriceDeviation = e.payload;"
+    }
+  ],
+  "localhost_8000": [
+    {
+      "line": 25907,
+      "excerpt": "  XD = \"http://localhost:8000\";"
+    }
+  ],
+  "app_settings": [
+    {
+      "line": 43705,
+      "excerpt": "      children: [P.jsx(Ct, { level: \"h3\", children: \"App settings\" }), P.jsx(rwe, {}), P.jsx(iwe, {}), P.jsx(nwe, {})],"
+    }
+  ],
+  "healhcheck": [
+    {
+      "line": 36809,
+      "excerpt": "      } = mB(e.public.healhcheck.queryOptions(void 0, { retry: !1, refetchOnWindowFocus: !1 }));"
+    }
+  ],
+  "bot_start": [
+    {
+      "line": 47030,
+      "excerpt": "        n.bot.start.mutationOptions({"
+    },
+    {
+      "line": 47762,
+      "excerpt": "        s.bot.start.mutationOptions({"
+    },
+    {
+      "line": 47908,
+      "excerpt": "        r.bot.start.mutationOptions({"
+    }
+  ],
+  "dcaBot_create": [
+    {
+      "line": 237607,
+      "excerpt": "      s.dcaBot.create.mutationOptions({"
+    }
+  ],
+  "highPrice": [
+    {
+      "line": 21106,
+      "excerpt": "    highPrice: 0,"
+    },
+    {
+      "line": 21136,
+      "excerpt": "        c.highPrice = e.payload;"
+    },
+    {
+      "line": 21139,
+      "excerpt": "        c.highPrice = e.payload;"
+    },
+    {
+      "line": 74138,
+      "excerpt": "        u = this.safeString(e, \"highPrice24h\"),"
+    },
+    {
+      "line": 85012,
+      "excerpt": "            high: this.safeString2(e, \"highPrice\", \"high\"),"
+    },
+    {
+      "line": 89504,
+      "excerpt": "        o = this.safeString(e, \"highPrice\"),"
+    },
+    {
+      "line": 102994,
+      "excerpt": "          high: this.safeString(e, \"highPrice\"),"
+    },
+    {
+      "line": 105172,
+      "excerpt": "            high: this.safeString2(e, \"highPrice\", \"high\"),"
+    },
+    {
+      "line": 108620,
+      "excerpt": "      h = this.safeString2(e, \"highPrice24\", \"highest_price_24h\"),"
+    },
+    {
+      "line": 117029,
+      "excerpt": "        m = this.safeString(e, \"highPrice24h\"),"
+    },
+    {
+      "line": 132185,
+      "excerpt": "      h = this.safeString(e, \"highPrice\"),"
+    },
+    {
+      "line": 135749,
+      "excerpt": "        r = this.safeString(e, \"highPrice\"),"
+    },
+    {
+      "line": 163620,
+      "excerpt": "          high: this.safeString(e, \"highPrice\"),"
+    },
+    {
+      "line": 168902,
+      "excerpt": "            (h = this.safeString(e, \"highPrice\")),"
+    },
+    {
+      "line": 176715,
+      "excerpt": "      this.safeNumber(e, \"highPrice\"),"
+    }
+  ],
+  "exchange_accounts": [
+    {
+      "line": 37539,
+      "excerpt": "        P.jsx(Pv, { href: Js(\"accounts\"), icon: P.jsx(qpe, {}), size: c, onClick: e, children: \"Exchange Accounts\" }),"
+    },
+    {
+      "line": 37622,
+      "excerpt": "          children: \"Exchange Accounts\","
+    },
+    {
+      "line": 44968,
+      "excerpt": "          title: \"Exchange Accounts\","
+    }
+  ],
+  "takeProfitPercent": [
+    {
+      "line": 21663,
+      "excerpt": "    takeProfitPercent: _H,"
+    },
+    {
+      "line": 21732,
+      "excerpt": "        c.takeProfitPercent = e.payload;"
+    },
+    {
+      "line": 21735,
+      "excerpt": "        c.takeProfitPercent = e.payload;"
+    },
+    {
+      "line": 21836,
+      "excerpt": "  NH = (c) => c.dcaBotForm.takeProfitPercent,"
+    },
+    {
+      "line": 237629,
+      "excerpt": "      takeProfitPercent: i,"
+    },
+    {
+      "line": 237671,
+      "excerpt": "function DEe({ entryPrice: c, safetyOrders: e, takeProfitPercent: t, stopLossPercent: s }) {"
+    },
+    {
+      "line": 237765,
+      "excerpt": "    takeProfitPercent: n,"
+    },
+    {
+      "line": 237775,
+      "excerpt": "      h = DEe({ entryPrice: l, safetyOrders: i, takeProfitPercent: n, stopLossPercent: r }),"
+    },
+    {
+      "line": 243580,
+      "excerpt": "            takeProfitPercent: m,"
+    }
+  ],
+  "bots_nav": [
+    {
+      "line": 37537,
+      "excerpt": "        P.jsx(Pv, { href: Js(\"bot\"), icon: P.jsx(tG, {}), size: c, onClick: e, children: \"Bots\" }),"
+    },
+    {
+      "line": 37604,
+      "excerpt": "          children: \"Bots\","
+    }
+  ],
+  "add_exchange": [
+    {
+      "line": 47349,
+      "excerpt": "            children: \"Add exchange account\","
+    }
+  ],
+  "account_created": [
+    {
+      "line": 46816,
+      "excerpt": "              s(), t(), i(\"Account created\");"
+    }
+  ],
+  "gridLines": [
+    {
+      "line": 21094,
+      "excerpt": "Tu({ gridLines: rB(Ise) });"
+    },
+    {
+      "line": 21108,
+      "excerpt": "    gridLinesNumber: Cse,"
+    },
+    {
+      "line": 21110,
+      "excerpt": "    gridLines: [],"
+    },
+    {
+      "line": 21148,
+      "excerpt": "        c.gridLinesNumber = e.payload;"
+    },
+    {
+      "line": 21169,
+      "excerpt": "        c.gridLines = e.payload;"
+    },
+    {
+      "line": 21172,
+      "excerpt": "        c.gridLines = e.payload;"
+    },
+    {
+      "line": 21175,
+      "excerpt": "        c.gridLines.push(e.payload);"
+    },
+    {
+      "line": 21179,
+      "excerpt": "        c.gridLines.splice(t, 1);"
+    },
+    {
+      "line": 21183,
+      "excerpt": "        c.gridLines[t].price = s;"
+    },
+    {
+      "line": 21187,
+      "excerpt": "        c.gridLines[t].quantity = s;"
+    },
+    {
+      "line": 47224,
+      "excerpt": "    VG(e.settings.gridLines), e.settings.gridLines.length, HG(e.settings.gridLines), FG(e.settings.gridLines);"
+    },
+    {
+      "line": 47254,
+      "excerpt": "                e.settings.gridLines.length,"
+    },
+    {
+      "line": 48001,
+      "excerpt": "    const e = HG(c.settings.gridLines),"
+    },
+    {
+      "line": 48002,
+      "excerpt": "      t = FG(c.settings.gridLines),"
+    },
+    {
+      "line": 48003,
+      "excerpt": "      s = VG(c.settings.gridLines),"
+    }
+  ],
+  "layout_bot_edit": [
+    {
+      "line": 249671,
+      "excerpt": "    LayoutDashboardBotEditIdRoute: AVe,"
+    }
+  ],
+  "barSize": [
+    {
+      "line": 18505,
+      "excerpt": "    FIVE_MINUTES: \"5m\","
+    },
+    {
+      "line": 18507,
+      "excerpt": "    ONE_HOUR: \"1h\","
+    },
+    {
+      "line": 18508,
+      "excerpt": "    FOUR_HOURS: \"4h\","
+    },
+    {
+      "line": 18509,
+      "excerpt": "    ONE_DAY: \"1d\","
+    },
+    {
+      "line": 21097,
+      "excerpt": "  UVe = [\"1d\", \"4h\", \"1h\", \"5m\"],"
+    },
+    {
+      "line": 21599,
+      "excerpt": "    \"5m\": 5 * Dx,"
+    },
+    {
+      "line": 21601,
+      "excerpt": "    \"1h\": Q2,"
+    },
+    {
+      "line": 21602,
+      "excerpt": "    \"4h\": 4 * Q2,"
+    },
+    {
+      "line": 21603,
+      "excerpt": "    \"1d\": YO,"
+    },
+    {
+      "line": 21652,
+      "excerpt": "  Xse = [\"1d\", \"4h\", \"1h\", \"5m\"],"
+    },
+    {
+      "line": 69853,
+      "excerpt": "    async fetchOpenInterestHistory(e, t = \"1h\", s = void 0, i = void 0, n = {}) {"
+    },
+    {
+      "line": 73124,
+      "excerpt": "          \"5m\": \"5min\","
+    },
+    {
+      "line": 73127,
+      "excerpt": "          \"1h\": \"1H\","
+    },
+    {
+      "line": 73129,
+      "excerpt": "          \"4h\": \"4H\","
+    },
+    {
+      "line": 73133,
+      "excerpt": "          \"1d\": \"1D\","
+    }
+  ],
+  "dca_bot_display": [
+    {
+      "line": 43593,
+      "excerpt": "  return c.displayName === \"Grid Bot\" || c.displayName === \"DCA Bot\";"
+    },
+    {
+      "line": 43602,
+      "excerpt": "    case \"DCA Bot\":"
+    }
+  ],
+  "sign_in": [
+    {
+      "line": 43733,
+      "excerpt": "      P.jsx(Ct, { level: \"body-sm\", children: \"Sign in to continue.\" }),"
+    }
+  ],
+  "quantityPerGrid": [
+    {
+      "line": 21109,
+      "excerpt": "    quantityPerGrid: `${_se}`,"
+    },
+    {
+      "line": 21151,
+      "excerpt": "        c.quantityPerGrid = e.payload;"
+    },
+    {
+      "line": 21154,
+      "excerpt": "        c.quantityPerGrid = e.payload;"
+    }
+  ],
+  "app_url": [
+    {
+      "line": 25904,
+      "excerpt": "const gA = \"APP_URL\","
+    }
+  ],
+  "bot_created": [
+    {
+      "line": 237609,
+      "excerpt": "          c(\"Bot created successfully\"),"
+    },
+    {
+      "line": 249291,
+      "excerpt": "          a(\"Bot created successfully\"),"
+    }
+  ],
+  "welcome_trader": [
+    {
+      "line": 43732,
+      "excerpt": "      P.jsx(Ct, { component: \"h1\", level: \"h4\", children: \"Welcome Trader!\" }),"
+    }
+  ],
+  "account_checked": [
+    {
+      "line": 44775,
+      "excerpt": "            ? e(\"Account checked. Credentials are valid.\")"
+    }
+  ],
+  "strategies_nav": [
+    {
+      "line": 37538,
+      "excerpt": "        P.jsx(Pv, { href: Js(\"strategies\"), icon: P.jsx(Fpe, {}), size: c, onClick: e, children: \"Strategies\" }),"
+    },
+    {
+      "line": 37613,
+      "excerpt": "          children: \"Strategies\","
+    }
+  ],
+  "OKX_BTC": [
+    {
+      "line": 21104,
+      "excerpt": "    symbolId: \"OKX:BTC/USDT\","
+    },
+    {
+      "line": 21659,
+      "excerpt": "    symbolId: \"OKX:BTC/USDT\","
+    }
+  ],
+  "file_route_bot_edit": [
+    {
+      "line": 249634,
+      "excerpt": "const Yz = ea(\"/_layout/dashboard/bot/edit/$id\")({ component: gVe }),"
+    }
+  ],
+  "gridBot_create": [],
+  "no_logs": [
+    {
+      "line": 47466,
+      "excerpt": "          children: \"No logs yet\","
+    }
+  ],
+  "settings_nav": [
+    {
+      "line": 37509,
+      "excerpt": "    \"Settings\","
+    },
+    {
+      "line": 37540,
+      "excerpt": "        P.jsx(Pv, { href: Js(\"settings\"), icon: P.jsx(Vpe, {}), size: c, onClick: e, children: \"Settings\" }),"
+    },
+    {
+      "line": 37631,
+      "excerpt": "          children: \"Settings\","
+    }
+  ],
+  "lowPrice": [
+    {
+      "line": 21107,
+      "excerpt": "    lowPrice: 0,"
+    },
+    {
+      "line": 21142,
+      "excerpt": "        c.lowPrice = e.payload;"
+    },
+    {
+      "line": 21145,
+      "excerpt": "        c.lowPrice = e.payload;"
+    },
+    {
+      "line": 74139,
+      "excerpt": "        l = this.safeString(e, \"lowPrice24h\");"
+    },
+    {
+      "line": 85013,
+      "excerpt": "            low: this.safeString2(e, \"lowPrice\", \"low\"),"
+    },
+    {
+      "line": 89505,
+      "excerpt": "        d = this.safeString(e, \"lowPrice\"),"
+    },
+    {
+      "line": 102995,
+      "excerpt": "          low: this.safeString(e, \"lowPrice\"),"
+    },
+    {
+      "line": 105173,
+      "excerpt": "            low: this.safeString2(e, \"lowPrice\", \"low\"),"
+    },
+    {
+      "line": 108621,
+      "excerpt": "      f = this.safeString2(e, \"lowPrice24\", \"lowest_price_24h\"),"
+    },
+    {
+      "line": 117030,
+      "excerpt": "        g = this.safeString(e, \"lowPrice24h\");"
+    },
+    {
+      "line": 132186,
+      "excerpt": "      f = this.safeString(e, \"lowPrice\"),"
+    },
+    {
+      "line": 135750,
+      "excerpt": "        a = this.safeString(e, \"lowPrice\"),"
+    },
+    {
+      "line": 163621,
+      "excerpt": "          low: this.safeString(e, \"lowPrice\"),"
+    },
+    {
+      "line": 168903,
+      "excerpt": "            (f = this.safeString(e, \"lowPrice\")),"
+    },
+    {
+      "line": 176716,
+      "excerpt": "      this.safeNumber(e, \"lowPrice\"),"
+    }
+  ],
+  "dcaBotForm": [
+    {
+      "line": 21677,
+      "excerpt": "    name: \"dcaBotForm\","
+    },
+    {
+      "line": 21827,
+      "excerpt": "  Sie = (c) => c.dcaBotForm,"
+    },
+    {
+      "line": 21828,
+      "excerpt": "  vie = (c) => c.dcaBotForm.botName,"
+    },
+    {
+      "line": 21829,
+      "excerpt": "  Tie = (c) => c.dcaBotForm.barSize,"
+    },
+    {
+      "line": 21830,
+      "excerpt": "  Oie = (c) => c.dcaBotForm.exchangeAccountId,"
+    },
+    {
+      "line": 21831,
+      "excerpt": "  EI = (c) => c.dcaBotForm.isDemoAccount,"
+    },
+    {
+      "line": 21832,
+      "excerpt": "  DI = (c) => c.dcaBotForm.symbolId,"
+    },
+    {
+      "line": 21833,
+      "excerpt": "  xie = (c) => c.dcaBotForm.entryOrderType,"
+    },
+    {
+      "line": 21834,
+      "excerpt": "  Pie = (c) => c.dcaBotForm.entryOrderQuantity,"
+    },
+    {
+      "line": 21835,
+      "excerpt": "  Iie = (c) => c.dcaBotForm.entryConditions,"
+    },
+    {
+      "line": 21836,
+      "excerpt": "  NH = (c) => c.dcaBotForm.takeProfitPercent,"
+    },
+    {
+      "line": 21837,
+      "excerpt": "  EH = (c) => c.dcaBotForm.stopLossPercent,"
+    },
+    {
+      "line": 21838,
+      "excerpt": "  cB = (c) => c.dcaBotForm.stopLossEnabled,"
+    },
+    {
+      "line": 21839,
+      "excerpt": "  DH = (c) => c.dcaBotForm.safetyOrders,"
+    },
+    {
+      "line": 21840,
+      "excerpt": "  qH = (c) => (e) => e.dcaBotForm.safetyOrders[c],"
+    }
+  ]
+}

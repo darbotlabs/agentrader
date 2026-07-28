@@ -1,0 +1,26 @@
+{
+  "extends": "@agentrader/tsconfig/esm.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../dts/packages/db",
+    "paths": {
+      "@agentrader/prisma": ["../prisma/src/index.ts"],
+      "@agentrader/prisma/*": ["../prisma/src/*"],
+      "@agentrader/tsconfig/*": ["../tsconfig/*"],
+      "@agentrader/types": ["../types/src/index.ts"],
+      "@agentrader/types/*": ["../types/src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "references": [
+    {
+      "path": "../prisma"
+    },
+    {
+      "path": "../tsconfig"
+    },
+    {
+      "path": "../types"
+    }
+  ]
+}

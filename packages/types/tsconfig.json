@@ -1,0 +1,16 @@
+{
+  "extends": "@agentrader/tsconfig/esm.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../dts/packages/types",
+    "paths": {
+      "@agentrader/tsconfig/*": ["../tsconfig/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "references": [
+    {
+      "path": "../tsconfig"
+    }
+  ]
+}

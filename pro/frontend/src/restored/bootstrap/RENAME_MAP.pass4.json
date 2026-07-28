@@ -1,0 +1,162 @@
+[
+  {
+    "from": "zl",
+    "to": "useControllableState",
+    "confidence": 0.95
+  },
+  {
+    "from": "AEe",
+    "to": "isControlled",
+    "confidence": 0.95
+  },
+  {
+    "from": "sz",
+    "to": "BotNameField",
+    "confidence": 0.98
+  },
+  {
+    "from": "iz",
+    "to": "TimeframeField",
+    "confidence": 0.98
+  },
+  {
+    "from": "tz",
+    "to": "ExchangeField",
+    "confidence": 0.98
+  },
+  {
+    "from": "ez",
+    "to": "SymbolField",
+    "confidence": 0.98
+  },
+  {
+    "from": "nz",
+    "to": "LoggingSwitch",
+    "confidence": 0.98
+  },
+  {
+    "from": "BN",
+    "to": "generateBotName",
+    "confidence": 0.92
+  },
+  {
+    "from": "I3",
+    "to": "pickDefaultSymbol",
+    "confidence": 0.95
+  },
+  {
+    "from": "BEe",
+    "to": "pickDefaultExchangeAccount",
+    "confidence": 0.95
+  },
+  {
+    "from": "oS",
+    "to": "TimeframeSelect",
+    "confidence": 0.93
+  },
+  {
+    "from": "iO",
+    "to": "ExchangeAccountSelect",
+    "confidence": 0.99
+  },
+  {
+    "from": "nO",
+    "to": "SymbolSelect",
+    "confidence": 0.99
+  },
+  {
+    "from": "BI",
+    "to": "composeSymbolId",
+    "confidence": 0.95
+  },
+  {
+    "from": "RI",
+    "to": "getBaseCurrency",
+    "confidence": 0.95
+  },
+  {
+    "from": "NI",
+    "to": "getQuoteCurrency",
+    "confidence": 0.95
+  },
+  {
+    "from": "oB",
+    "to": "decomposeSymbolId",
+    "confidence": 0.95
+  },
+  {
+    "from": "ah",
+    "to": "splitCurrencyPair",
+    "confidence": 0.9
+  },
+  {
+    "from": "Vy",
+    "to": "useHasChanged",
+    "confidence": 0.9
+  },
+  {
+    "from": "$f",
+    "to": "useDeveloperMode",
+    "confidence": 0.98
+  },
+  {
+    "from": "$N",
+    "to": "SchemaObjectFields",
+    "confidence": 0.93
+  },
+  {
+    "from": "G3",
+    "to": "SchemaTextField",
+    "confidence": 0.92
+  },
+  {
+    "from": "C5e",
+    "to": "SchemaArrayField",
+    "confidence": 0.92
+  },
+  {
+    "from": "_5e",
+    "to": "SchemaBooleanField",
+    "confidence": 0.93
+  },
+  {
+    "from": "M5e",
+    "to": "SchemaEnumField",
+    "confidence": 0.93
+  },
+  {
+    "from": "P5e",
+    "to": "isArraySchema",
+    "confidence": 0.9
+  },
+  {
+    "from": "J5e",
+    "to": "jsonSchemaToZodSource",
+    "confidence": 0.92
+  },
+  {
+    "from": "xse",
+    "to": "zodRuntime",
+    "confidence": 0.85
+  },
+  {
+    "from": "Xk",
+    "to": "Select",
+    "confidence": 0.95
+  },
+  {
+    "from": "Xm",
+    "to": "Option",
+    "confidence": 0.9
+  },
+  {
+    "from": "fo",
+    "to": "produce",
+    "confidence": 0.95
+  },
+  {
+    "from": "Dy",
+    "to": "pathUtil",
+    "confidence": 0.85
+  }
+]

@@ -1,0 +1,5 @@
+BUNDLE=C:\Users\darbot\Downloads\opentrader-dev\AgentTrader\app\frontend\assets\index-DTKnr6h1.js
+RELATIVE=../../app/frontend/assets/index-DTKnr6h1.js
+SHA256=a5352227d053c92889a615be1b30774c8e852dddb43f9f06235e7285ab1d923c
+BYTES=8693186
+LINES=249814

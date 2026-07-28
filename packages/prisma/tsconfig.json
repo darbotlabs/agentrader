@@ -1,0 +1,38 @@
+{
+  "extends": "@agentrader/tsconfig/module.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../../dts/packages/prisma",
+    "paths": {
+      "@agentrader/tools": [
+        "../tools/src/index.ts"
+      ],
+      "@agentrader/tools/*": [
+        "../tools/src/*"
+      ],
+      "@agentrader/tsconfig/*": [
+        "../tsconfig/*"
+      ],
+      "@agentrader/types": [
+        "../types/src/index.ts"
+      ],
+      "@agentrader/types/*": [
+        "../types/src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "references": [
+    {
+      "path": "../tools"
+    },
+    {
+      "path": "../tsconfig"
+    },
+    {
+      "path": "../types"
+    }
+  ]
+}

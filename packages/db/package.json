@@ -17,6 +17,6 @@
   "dependencies": {
     "@agentrader/prisma": "workspace:*",
     "@prisma/client": "6.9.0",
-    "zod": "3.25.65"
+    "zod": "4.6.6"
   }
 }
